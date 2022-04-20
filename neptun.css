@@ -1,0 +1,29 @@
+body{
+	overflow-x: hidden;
+}
+.main__mark-text{
+	font-size: 14px;
+	font-weight: 600;
+	color: rgba(86, 86, 86, 1);
+	background: rgba(242, 248, 255, 1);
+	padding: 7px;
+	margin-right: 10px;
+}
+.main__info-subtitle{
+	margin-top: 26px;
+}
+.main__github-link{
+	margin-left: 20px;
+}
+.main__mob{
+	display: none;
+}
+
+@media screen and (max-width: 576px){
+	.main__mark-text{
+		display: block !important;
+	}
+	.main__date{
+		display: block !important;
+	}
+}

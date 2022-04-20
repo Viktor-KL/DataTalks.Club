@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Article Detailed</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/articles.css">
+	<link rel="stylesheet" href="css/articleDetailed.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+	<nav class="mobile__menu">
+	<header class="nav__header">
+		<img class="mob-nav__logo" src="img/whiteLogo.png" alt="">
+		<div class="nav__burger" onclick="toChange(this)">
+					<div class="bar1 bars-white"></div>
+					<div class="bar2 bars-white"></div>
+					<div class="bar3 bars-white"></div>
+				</div>
+	</header>
+	<div class="mobile__menu-links">
+		<div class="">
+		<a class="nav__link nav__link-white" href="index.html">Home</a>
+	</div>
+	<div class="">
+		<a class="nav__link nav__link-white">Learn <img class="mobMenuArrow" src="img/mobMenuArrodWhite.png" alt=""></a>
+		<div class="nav__div-link">
+			<a class="nav__subLinks nav__subLinks-white" href="learn.html">Courses</a>
+			<a class="nav__subLinks nav__subLinks-white" href="tools.html">Tools</a>
+			<a class="nav__subLinks nav__subLinks-white" href="articles.html">Articles</a>
+		</div>
+	</div>
+
+	<div class="">
+		<a class="nav__link nav__link-white" href="#">Read <img class="mobMenuArrow" src="img/mobMenuArrodWhite.png" alt=""></a>
+		<div class="nav__div-link">
+			<a class="nav__subLinks nav__subLinks-white" href="read.html">Books</a>
+			<a class="nav__subLinks nav__subLinks-white" href="blog.html">Blog</a>
+		</div>
+	</div>
+	<div class="">
+		<a class="nav__link nav__link-white" href="#">Listen <img class="mobMenuArrow" src="img/mobMenuArrodWhite.png" alt=""></a>
+		<div class="nav__div-link">
+			<a class="nav__subLinks nav__subLinks-white" href="podcast.html">Podcasts</a>
+		</div>
+	</div>
+	<div class="">
+		<a class="nav__link nav__link-white" href="#">Join <img class="mobMenuArrow" src="img/mobMenuArrodWhite.png" alt=""></a>
+		<div class="nav__div-link">
+			<a class="nav__subLinks nav__subLinks-white" href="slack.html">Slack</a>
+			<a class="nav__subLinks nav__subLinks-white" href="newsletter.html">Newsletter</a>
+			<a class="nav__subLinks nav__subLinks-white" href="events.html">Events</a>
+		</div>
+	</div>
+	<div class="">
+		<a class="nav__link nav__link-white" href="#">Support <img class="mobMenuArrow" src="img/mobMenuArrodWhite.png" alt=""></a>
+		<div class="nav__div-link">
+			<a class="nav__subLinks nav__subLinks-white" href="podcast.html">Support</a>
+		</div>
+	</div>
+	<div class="nav-networks-block">
+		<a class="nav-mob-net-icon" href=""><img src="img/navYoutube.png" alt=""></a>
+		<a class="nav-mob-net-icon" href=""><img src="img/navTwitter.png" alt=""></a>
+		<a class="nav-mob-net-icon" href=""><img src="img/navLinked.png" alt=""></a>
+		<a class="nav-mob-net-icon" href=""><img src="img/navGhub.png" alt=""></a>
+	</div>
+	</div>
+	
+	
+</nav>
+
+
+
+<header class="pc__menu pc__menu-blue">
+	<div class="container-fluid">
+		<div class="container">
+			<div class="row ">
+				<div class="col-md-6 text-left">
+					<img src='img/whiteLogo.png' alt="">
+				</div>
+				<div class="col-md-1">
+					<a href="index.html" class="header__links header__links-blue">Home</a>
+				</div>
+				<div class="col-md-1 nav__link-wrap nav__link-wrap-blue">
+					<a href="learn.html" class="header__links header__links-blue active-link-blue">Learn</a>
+					<div class="nav__menu-block nav__menu-block-blue">
+						<a href="learn.html" class="nav__subLink-md">Courses</a>
+						<a href="tools.html" class="nav__subLink-md">Tools</a>
+						<a href="articles.html" class="nav__subLink-md">Articles</a>
+					</div>
+				</div>
+				<div class="col-md-1 nav__link-wrap nav__link-wrap-blue">
+					<a href="read.html" class="header__links header__links-blue">Read</a>
+					<div class="nav__menu-block nav__menu-block-blue">
+						<a href="read.html" class="nav__subLink-md">Books</a>
+						<a href="blog.html" class="nav__subLink-md">Blog</a>
+					</div>
+				</div>
+				<div class="col-md-1 nav__link-wrap nav__link-wrap-blue">
+					<a href="podcast.html" class="header__links header__links-blue">Listen</a>
+					<div class="nav__menu-block nav__menu-block-blue">
+						<a href="podcast.html" class="nav__subLink-md">Podcasts</a>
+					</div>
+				</div>
+				<div class="col-md-1 nav__link-wrap nav__link-wrap-blue">
+					<a href="slack.html" class="header__links header__links-blue">Join</a>
+					<div class="nav__menu-block nav__menu-block-blue">
+						<a href="slack.html" class="nav__subLink-md">Slack</a>
+						<a href="newsletter.html" class="nav__subLink-md">Newsletter</a>
+						<a href="events.html" class="nav__subLink-md">Events</a>
+					</div>
+				</div>
+				<div class="col-md-1 nav__link-wrap nav__link-wrap-blue">
+					<a href=".html" class="header__links header__links-blue"><nobr>Follow us</nobr></a>
+					<div class="nav__menu-block nav__menu-block-blue">
+						<a href="slack.html" class="nav__subLink-md">Youtube</a>
+						<a href="newsletter.html" class="nav__subLink-md">Twitter </a>
+						<a href="events.html" class="nav__subLink-md">LinkedIn</a>
+						<a href="events.html" class="nav__subLink-md">GitHub</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</header>
+
+<nav>
+	<div class="container-fluid">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-md-12">
+					<a href="articles.html">
+						<img src="img/buttonBack.png" alt="">
+					</a>
+					<a href="" class="article__name">
+						NISHANT MOHAN
+					</a>
+					<span class="text-light">01 JAN 2021</span>
+					<h1 class="h1_title text-light h1-blue-title">
+						How I Landed a Job As a Product Analyst
+					</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+</nav>
+
+<main>
+<div class="container-fluid news">
+	<div class="container">
+		<div class="row">
+			<h2 class="title">
+				Background
+			</h2>
+			<p class="main__subtitle24">
+				I did my postgraduate studies in computer science with specialization in data science. After I completed the course in 2020, it was time to look for jobs. Though I had relevant professional experience in analytics, searching for jobs was new for me because I landed my earlier job fairly quickly during campus placements after graduate studies, and therefore I had never really searched for jobs nor given many interviews. Adding to my woes, the covid-19 had largely weakened the job market. <br><br>
+
+				After hundreds of unsuccessful applications, I finally secured a great job. In this article, I talk about what I think helped in retrospect. If you are reading this, I suppose you are looking for jobs too. Hope I can be of help!
+			</p>
+			<div class="col-md-12 text-center">
+				<img class="news__main-img" src="img/newsMainImage.png" alt="">
+				<div class="news__image-block">
+				</div>
+			</div>	
+			<h2 class="title news__title-block">
+				Preparation Before Applications Began
+			</h2>
+			<p class="main__subtitle24">
+				There are four things I gave attention to:<br><br>
+
+				<b>1.</b> CV - They say that you should change your CV according to the job description. I did too. I took help of articles that suggest how to build a great CV. With every application, my CV improved. I even received appreciation for my CV from two or three interviewers. <br> <br>
+				<b>2.</b> GitHub - There have been interviews where I actually showed my GitHub repos via screen sharing. It’s important you have a great Readme for your projects. Not everyone would look at your GitHub, but if they do, they should be able to understand what, why, and how of your projects through your Readme. <br> <br>
+				<b>3.</b> Portfolio - I designed my personal website, which had an overview of my professional career, my blogs, and my projects. Not because I felt it was needed, but because I saw someone else’s, and I was thrilled to have my own. Took only a day or two build but helped enormously when I reached out to someone on LinkedIn. Always think from the perspective of the other person. If someone was reaching out to you, would you rather download their CV, or click on a link? <br><br>
+				<b>4.</b> Blog - Getting a great job had been on my mind since half my degree was over. One day, I decided to write about one of my projects on medium. I discovered that I liked writing. I felt like I was interacting with the readers face to face. It felt good to be explaining about a project that I was proud of. It felt good to see my name on a blogging website. But at the same time, I knew this might help me build a profile that would be different than my peers.
+			</p>
+			<div class="col-md-12 text-center">
+				<div class="news__insert">
+					<p class="news__subtitle">
+						Proud fact №1: I got contacted by a startup because its founder read one of my articles and it related to their business problem.
+					</p>
+				</div>
+			</div>
+
+			<h2 class="title news__title-block">
+				The Interview Process
+			</h2>
+
+			<p class="main__subtitle24">
+				All the interviews begin with an introduction. I prepared a detailed introduction, which specifically addressed these points:<br><br>
+
+				<b>·</b> Where I am currently in my career phase- 1-2 lines stating that I have recently completed master’s studies, and have these many years of relevant work experience <br><br>
+				<b>·</b> An overview of what I did in the previous role- My responsibilities, nature of work and end objectives <br><br>
+				<b>·</b> One liner each about some specific projects that highlighted my nature of work- Forming and analyzing customer journey funnels, a/b testing and customer segmentation for marketing campaigns, statistical hypothesis testing for deeper analyses, predicting costs for incoming customers and so on. <br><br>
+				<b>·</b> About postgrad- How and why it was necessary to pursue further studies, what I learned during it, about master’s thesis, if relevant. <br><br>
+				<b>·</b> What’s next? Now that everything is done, what am I looking for? How does this role and company fit into my future plans? Do the dots connect?<br><br>
+
+				In my experience, if you can explain to the recruiter how you fit the job description, you will get to the next round. Not a big deal. Be prepared for the obvious. For example, I often got asked during analytics interviews, “your academics have been in data science, why do you want an analytics job?”. Have your arrow ready. <br><br>
+
+				The recruiters generally discuss your rough salary expectations at this stage itself. So, do your research beforehand. Do remember to ask them about the stages involved in the process.
+			</p>
+			<div class="col-md-12">
+				<h2 class="title news__title-block news__title-color">
+				Other Interesting Articles:
+			</h2>
+			</div>
+				
+			<div class="col-md-6 testimonials__block testimonials__block1">
+				<div class="articles__block">
+						<span class="articles__mark-text mark-margin br6">ALEXEY GRIGOREV</span>
+						<span>14 DEC 2020</span><br>
+						<a href="articles.html" class="article__title">
+							Different roles in a data team and their responsibilities
+						</a>
+						<p class="main__subtitle">
+							In this article, we’ll talk about different roles in a data team and discuss their responsibilities.
+						</p>
+					</div>
+			</div>	
+			<div class="col-md-6 col-12 testimonials__block testimonials__block1">
+				<div class="articles__block">
+						<span class="articles__mark-text mark-margin br6">NISHANT MOHAN</span>
+						<span>29 NOW 2020</span><br>
+						<a href="articles.html" class="article__title">
+							Not A Regular RFM Analysis
+						</a>
+						<p class="main__subtitle">
+							In this article, we’ll talk about different roles in a data team and discuss their responsibilities.
+						</p>
+				</div>
+			</div>
+			<div class="col-md-6 col-12 testimonials__block testimonials__block2 hide">
+				<div class="articles__block">
+						<span class="articles__mark-text mark-margin br6">2ALEXEY GRIGOREV</span>
+						<span>14 DEC 2020</span><br>
+						<a href="articles.html" class="article__title">
+							Different roles in a data team and their responsibilities
+						</a>
+						<p class="main__subtitle">
+							In this article, we’ll talk about different roles in a data team and discuss their responsibilities.
+						</p>
+					</div>
+			</div>	
+			<div class="col-md-6 testimonials__block testimonials__block2 hide">
+				<div class="articles__block">
+						<span class="articles__mark-text mark-margin br6">2NISHANT MOHAN</span>
+						<span>29 NOW 2020</span><br>
+						<a href="articles.html" class="article__title">
+							Not A Regular RFM Analysis
+						</a>
+						<p class="main__subtitle">
+							In this article, we’ll talk about different roles in a data team and discuss their responsibilities.
+						</p>
+				</div>
+			</div>
+			<div class="col-md-6 testimonials__block testimonials__block3 hide">
+				<div class="articles__block">
+						<span class="articles__mark-text mark-margin br6">ALEXEY GRIGOREV</span>
+						<span class="main__date">14 DEC 2020</span><br>
+						<a href="articles.html" class="article__title">
+							Different roles in a data team and their responsibilities
+						</a>
+						<p class="main__subtitle">
+							In this article, we’ll talk about different roles in a data team and discuss their responsibilities.
+						</p>
+					</div>
+			</div>	
+			<div class="col-md-6 testimonials__block testimonials__block3 hide">
+				<div class="articles__block">
+						<span class="articles__mark-text mark-margin br6">NISHANT MOHAN</span>
+						<span class="main__date">29 NOW 2020</span><br>
+						<a href="articles.html" class="article__title">
+							Not A Regular RFM Analysis
+						</a>
+						<p class="main__subtitle">
+							In this article, we’ll talk about different roles in a data team and discuss their responsibilities.
+						</p>
+				</div>
+			</div>
+			<div class="testimonials__dots">
+						<a class="d-inline" >
+							<div class="testimonials__dot-1 testimonials__dot active__dot">
+							</div>
+						</a>
+						<a class="d-inline">
+							<div class="testimonials__dot-2 testimonials__dot">
+							</div>
+						</a>
+						<a class="d-inline">
+							<div class="testimonials__dot-3 testimonials__dot">
+							</div>
+						</a>
+					</div>
+		</div>
+	</div>
+</div>
+
+</main>
+
+
+<footer>
+	<div class="container-fluid footer__pc">
+		<div class="container">
+			<div class="row ">
+				<div class="col-md-4">
+					<img src="img/logoFooter.svg" alt="">
+					<p class="footer__subtitle text-light">
+						Global online community <br>of data  enthusiasts. Join us:
+					</p>
+					<a class="header__networks" href=""><img src="img/youtubeFooter.svg" alt=""></a>
+					<a class="header__networks" href=""><img src="img/twitterFooter.svg" alt=""></a>
+					<a class="header__networks" href=""><img src="img/linkedinFooter.svg" alt=""></a>
+					<a class="header__networks" href=""><img src="img/gitHubFooter.svg" alt=""></a>
+				</div>
+				<div class="col-md">
+					<a class="footer__pages text-light" href="index.html">Home</a>
+				</div>
+				<div class="col-md">
+					<a class="footer__pages text-light" href="learn.html">Learn</a><br><br>
+					<a href="learn.html" class="footer__subpages">Courses</a><br><br>
+					<a href="tools.html" class="footer__subpages">Tools</a><br><br>
+					<a href="articles.html" class="footer__subpages">Articles</a>
+				</div>
+				<div class="col-md">
+					<a class="footer__pages text-light" href="read.html">Read</a><br><br>
+					<a href="books.html" class="footer__subpages">Books</a><br><br>
+					<a href="blog.html" class="footer__subpages">Blog</a>
+
+				</div>
+				<div class="col-md">
+					<a class="footer__pages text-light" href="listen.html">Listen</a><br><br>
+					<a href="podcasts.html" class="footer__subpages">Podcasts</a>
+					
+				</div>
+				<div class="col-md">
+					<a class="footer__pages text-light" href="join.html">Join</a><br><br>
+					<a href="slack.html" class="footer__subpages">Slack</a><br><br>
+					<a href="newsletter.html" class="footer__subpages">Newsletter</a><br><br>
+					<a href="events.html" class="footer__subpages">Events</a>
+				</div>
+				<div class="col-md">
+					<a class="footer__pages text-light" href="support.html">Support</a><br><br>
+					<a href="privacy.html" class="footer__subpages">Privacy Police</a>
+				</div>
+
+				<div class="col-md-12 text-center">
+					<div class="vertical-line"></div>
+					<p class="footer__copyright">Copyright © 2022 DataTalks.Club</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid footer__mob text-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 footer__mob-links-wrap">
+					<div class="row">
+						<div class="col">
+							<a href="index.html" class="header__links header__links-blue text-light"><b>Home</b></a>
+						</div>
+						<div class="col nav__link nav__link-white-wrap nav__link nav__link-white-wrap-blue ">
+							<a class="header__links header__links-blue text-light"><b>Learn</b></a>
+							<div class="nav__menu-block">
+								<a href="learn.html" class="nav__subLink-md">Courses</a>
+								<a href="tools.html" class="nav__subLink-md">Tools</a>
+								<a href="articles.html" class="nav__subLink-md">Articles</a>
+							</div>
+						</div>
+						<div class="col nav__link nav__link-white-wrap nav__link nav__link-white-wrap-blue">
+							<a class="header__links header__links-blue text-light"><b>Read</b></a>
+							<div class="nav__menu-block">
+								<a href="read.html" class="nav__subLink-md">Books</a>
+								<a href="blog.html" class="nav__subLink-md">Blog</a>
+							</div>
+						</div>
+						<div class="col nav__link nav__link-white-wrap nav__link nav__link-white-wrap-blue">
+							<a class="header__links header__links-blue text-light"><b>Listen</b></a>
+							<div class="nav__menu-block">
+								<a href="podcast.html" class="nav__subLink-md">Podcasts</a>
+							</div> 
+						</div>
+						<div class="col  nav__link nav__link-white-wrap nav__link nav__link-white-wrap-blue">
+							<a  class="header__links header__links-blue text-light"><b>Join</b></a>
+							<div class="nav__menu-block">
+								<a href="slack.html" class="nav__subLink-md">Slack</a>	
+								<a href="newsletter.html" class="nav__subLink-md">Newsletter</a>	
+								<a href="events.html" class="nav__subLink-md">Events</a>	
+							</div> 	
+						</div>
+					</div>
+				</div>
+				<div class="col-md-12">
+					<a href=""><img class="footer__net-links" src="img/youtubeFooter.svg" alt=""></a>
+					<a href=""><img class="footer__net-links" src="img/twitterFooter.svg" alt=""></a>
+					<a href=""><img class="footer__net-links" src="img/linkedinFooter.svg" alt=""></a>
+					<a href=""><img class="footer__net-links" src="img/gitHubFooter.svg" alt=""></a>
+				</div>
+				<div class="col-md-12 ">
+					<p class="footer__mob-copyright">Copyright © 2022 DataTalks.Club</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="js/main.js"> 
+	
+</script>
+
+
+</body>
+</html>

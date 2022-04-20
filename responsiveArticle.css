@@ -1,0 +1,17 @@
+@media screen and (max-width: 1200px){
+	.main__subtitle{
+		margin: 10px 0px -10px 0px;
+	}
+}
+
+@media screen and (max-width: 576px){
+	.main__subtitle{
+		font-size: 12px;
+		margin: 0; 	
+	}
+	.article__title{
+		display: block;
+		margin-top: 5px;
+	}
+
+}

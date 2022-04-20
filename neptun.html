@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/neptun.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="responsiveNeptun.css">
+</head>
+<body>
+	
+<nav class="mobile__menu">
+	<header class="nav__header">
+		<img class="mob-nav__logo" src="img/logo.png" alt="">
+		<div class="nav__burger" onclick="toChange(this)">
+					<div class="bar1"></div>
+					<div class="bar2"></div>
+					<div class="bar3"></div>
+				</div>
+	</header>
+	<div class="mobile__menu-links">
+		<div class="">
+		<a class="nav__link" href="index.html">Home</a>
+	</div>
+	<div class="">
+		<a class="nav__link">Learn <span class="nav__arrow">▼</span></a>
+		<div class="nav__div-link">
+			<a class="nav__subLinks" href="learn.html">Courses</a>
+			<a class="nav__subLinks" href="tools.html">Tools</a>
+			<a class="nav__subLinks" href="articles.html">Articles</a>
+		</div>
+	</div>
+
+	<div class="">
+		<a class="nav__link" href="#">Read <span class="nav__arrow">▼</span></a>
+		<div class="nav__div-link">
+			<a class="nav__subLinks" href="read.html">Books</a>
+			<a class="nav__subLinks" href="blog.html">Blog</a>
+		</div>
+	</div>
+	<div class="">
+		<a class="nav__link" href="#">Listen <span class="nav__arrow">▼</span></a>
+		<div class="nav__div-link">
+			<a class="nav__subLinks" href="podcast.html">Podcasts</a>
+		</div>
+	</div>
+	<div class="">
+		<a class="nav__link" href="#">Join <span class="nav__arrow">▼</span></a>
+		<div class="nav__div-link">
+			<a class="nav__subLinks" href="slack.html">Slack</a>
+			<a class="nav__subLinks" href="newsletter.html">Newsletter</a>
+			<a class="nav__subLinks" href="events.html">Events</a>
+		</div>
+	</div>
+	<div class="">
+		<a class="nav__link" href="#">Support <span class="nav__arrow">▼</span></a>
+		<div class="nav__div-link">
+			<a class="nav__subLinks" href="podcast.html">Support</a>
+		</div>
+	</div>
+	<div class="nav-networks-block">
+		<a class="nav-mob-net-icon" href=""><img src="img/navYoutube.png" alt=""></a>
+		<a class="nav-mob-net-icon" href=""><img src="img/navTwitter.png" alt=""></a>
+		<a class="nav-mob-net-icon" href=""><img src="img/navLinked.png" alt=""></a>
+		<a class="nav-mob-net-icon" href=""><img src="img/navGhub.png" alt=""></a>
+	</div>
+	</div>
+	
+	
+</nav>
+
+
+
+<header class="pc__menu">
+	<div class="container-fluid">
+		<div class="container">
+			<div class="row ">
+				<div class="col-md-6 text-left">
+					<img src='img/logo.png' alt="">
+				</div>
+				<div class="col-md-1">
+					<a href="index.html" class="header__links">Home</a>
+				</div>
+				<div class="col-md-1 nav__link-wrap">
+					<a href="learn.html" class="header__links active-link">Learn</a>
+					<div class="nav__menu-block">
+						<a href="learn.html" class="nav__subLink-md">Courses</a>
+						<a href="tools.html" class="nav__subLink-md">Tools</a>
+						<a href="articles.html" class="nav__subLink-md">Articles</a>
+					</div>
+				</div>
+				<div class="col-md-1 nav__link-wrap">
+					<a href="read.html" class="header__links">Read</a>
+					<div class="nav__menu-block">
+						<a href="read.html" class="nav__subLink-md">Books</a>
+						<a href="blog.html" class="nav__subLink-md">Blog</a>
+					</div>
+				</div>
+				<div class="col-md-1 nav__link-wrap">
+					<a href="podcast.html" class="header__links">Listen</a>
+					<div class="nav__menu-block">
+						<a href="podcast.html" class="nav__subLink-md">Podcasts</a>
+					</div>
+				</div>
+				<div class="col-md-1 nav__link-wrap">
+					<a href="slack.html" class="header__links">Join</a>
+					<div class="nav__menu-block">
+						<a href="slack.html" class="nav__subLink-md">Slack</a>
+						<a href="newsletter.html" class="nav__subLink-md">Newsletter</a>
+						<a href="events.html" class="nav__subLink-md">Events</a>
+					</div>
+				</div>
+				<div class="col-md-1 nav__link-wrap">
+					<a href=".html" class="header__links"><nobr>Follow us</nobr></a>
+					<div class="nav__menu-block">
+						<a href="slack.html" class="nav__subLink-md">Youtube</a>
+						<a href="newsletter.html" class="nav__subLink-md">Twitter </a>
+						<a href="events.html" class="nav__subLink-md">LinkedIn</a>
+						<a href="events.html" class="nav__subLink-md">GitHub</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</header>	
+	
+<main>
+	<div class="container-fluid main__pc">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<h2 class="title">
+						Neptun.ai
+					</h2>
+					<span class="main__mark-text">NISHANT MOHAN</span>
+					<span class="main__date">01 FEB 2021</span>
+					<p class="main__subtitle20 main__info-subtitle">
+						Manage all your model building metadata in a single place. Log, store, display, organize, compare and query your MLOps metadata. <br><br>
+
+						Experiment tracking and model registry built for research and production teams that run a lot of experiments.
+					</p>
+					<a href="index.html" class="button">OFFICIAL WEBSITE</a>	
+					<a href="" class="button-white main__github-link">GITHUB</a>
+				</div>
+				<div class="col-md-6">
+					<a href="">
+						<img src="img/mainVideo.png" alt="">
+					</a>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid text-center main__mob">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="title">
+						Neptun.ai
+					</h2>
+					<span class="main__mark-text">NISHANT MOHAN</span>
+					<span class="main__date">01 FEB 2021</span>
+					<a href="">
+						<img class="main__image" src="img/mainVideo.png" alt="">
+					</a>
+					<a href="index.html" class="button">OFFICIAL WEBSITE</a>	
+					<a href="" class="button-white main__github-link">GITHUB</a>
+
+					
+					<p class="main__subtitle20 main__info-subtitle">
+						Manage all your model building metadata in a single place. Log, store, display, organize, compare and query your MLOps metadata. <br><br>
+
+						Experiment tracking and model registry built for research and production teams that run a lot of experiments.
+					</p>
+					
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</main>
+
+
+<footer>
+	<div class="container-fluid footer__pc">
+		<div class="container">
+			<div class="row ">
+				<div class="col-md-4">
+					<img src="img/logoFooter.svg" alt="">
+					<p class="footer__subtitle text-light">
+						Global online community <br>of data  enthusiasts. Join us:
+					</p>
+					<a href=""><img class="footer__net-links" src="img/youtubeFooter.svg" alt=""></a>
+					<a href=""><img class="footer__net-links" src="img/twitterFooter.svg" alt=""></a>
+					<a href=""><img class="footer__net-links" src="img/linkedinFooter.svg" alt=""></a>
+					<a href=""><img class="footer__net-links" src="img/gitHubFooter.svg" alt=""></a>
+				</div>
+				<div class="col-md">
+					<a class="footer__pages text-light" href="index.html">Home</a>
+				</div>
+				<div class="col-md">
+					<a class="footer__pages text-light" href="learn.html">Learn</a><br><br>
+					<a href="learn.html" class="footer__subpages">Courses</a><br><br>
+					<a href="tools.html" class="footer__subpages">Tools</a><br><br>
+					<a href="articles.html" class="footer__subpages">Articles</a>
+				</div>
+				<div class="col-md">
+					<a class="footer__pages text-light" href="read.html">Read</a><br><br>
+					<a href="books.html" class="footer__subpages">Books</a><br><br>
+					<a href="blog.html" class="footer__subpages">Blog</a>
+
+				</div>
+				<div class="col-md">
+					<a class="footer__pages text-light" href="listen.html">Listen</a><br><br>
+					<a href="podcasts.html" class="footer__subpages">Podcasts</a>
+					
+				</div>
+				<div class="col-md">
+					<a class="footer__pages text-light" href="join.html">Join</a><br><br>
+					<a href="slack.html" class="footer__subpages">Slack</a><br><br>
+					<a href="newsletter.html" class="footer__subpages">Newsletter</a><br><br>
+					<a href="events.html" class="footer__subpages">Events</a>
+				</div>
+				<div class="col-md">
+					<a class="footer__pages text-light" href="support.html">Support</a><br><br>
+					<a href="privacy.html" class="footer__subpages">Privacy Police</a>
+				</div>
+
+				<div class="col-md-12 text-center">
+					<div class="vertical-line"></div>
+					<p class="footer__copyright">Copyright © 2022 DataTalks.Club</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid footer__mob text-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 footer__mob-links-wrap">
+					<div class="row">
+						<div class="col">
+							<a href="index.html" class="header__links text-light"><b>Home</b></a>
+						</div>
+						<div class="col nav__link-wrap ">
+							<a class="header__links text-light"><b>Learn</b></a>
+							<div class="nav__menu-block">
+								<a href="learn.html" class="nav__subLink-md">Courses</a>
+								<a href="tools.html" class="nav__subLink-md">Tools</a>
+								<a href="articles.html" class="nav__subLink-md">Articles</a>
+							</div>
+						</div>
+						<div class="col nav__link-wrap">
+							<a class="header__links text-light"><b>Read</b></a>
+							<div class="nav__menu-block">
+								<a href="read.html" class="nav__subLink-md">Books</a>
+								<a href="blog.html" class="nav__subLink-md">Blog</a>
+							</div>
+						</div>
+						<div class="col nav__link-wrap">
+							<a class="header__links text-light"><b>Listen</b></a>
+							<div class="nav__menu-block">
+								<a href="podcast.html" class="nav__subLink-md">Podcasts</a>
+							</div> 
+						</div>
+						<div class="col  nav__link-wrap">
+							<a  class="header__links text-light"><b>Join</b></a>
+							<div class="nav__menu-block">
+								<a href="slack.html" class="nav__subLink-md">Slack</a>	
+								<a href="newsletter.html" class="nav__subLink-md">Newsletter</a>	
+								<a href="events.html" class="nav__subLink-md">Events</a>	
+							</div> 	
+						</div>
+					</div>
+				</div>
+				<div class="col-md-12">
+					<a href=""><img class="footer__net-links" src="img/youtubeFooter.svg" alt=""></a>
+					<a href=""><img class="footer__net-links" src="img/twitterFooter.svg" alt=""></a>
+					<a href=""><img class="footer__net-links" src="img/linkedinFooter.svg" alt=""></a>
+					<a href=""><img class="footer__net-links" src="img/gitHubFooter.svg" alt=""></a>
+				</div>
+				<div class="col-md-12 ">
+					<p class="footer__mob-copyright">Copyright © 2022 DataTalks.Club</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</footer>
+<style>
+	.br6{
+		border-radius: 6px;
+	}
+</style>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="js/main.js"> 
+	
+</script>
+</body>
+</html>

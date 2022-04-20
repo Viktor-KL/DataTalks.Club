@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="css/booksDetailed.css">
+</head>
+<body>
+	
+<nav class="mobile__menu">
+	<header class="nav__header">
+		<img class="mob-nav__logo" src="img/whiteLogo.png" alt="">
+		<div class="nav__burger" onclick="toChange(this)">
+					<div class="bar1 bars-white"></div>
+					<div class="bar2 bars-white"></div>
+					<div class="bar3 bars-white"></div>
+				</div>
+	</header>
+	<div class="mobile__menu-links">
+		<div class="">
+		<a class="nav__link nav__link-white" href="index.html">Home</a>
+	</div>
+	<div class="">
+		<a class="nav__link nav__link-white">Learn <img class="mobMenuArrow" src="img/mobMenuArrodWhite.png" alt=""></a>
+		<div class="nav__div-link">
+			<a class="nav__subLinks nav__subLinks-white" href="learn.html">Courses</a>
+			<a class="nav__subLinks nav__subLinks-white" href="tools.html">Tools</a>
+			<a class="nav__subLinks nav__subLinks-white" href="articles.html">Articles</a>
+		</div>
+	</div>
+
+	<div class="">
+		<a class="nav__link nav__link-white" href="#">Read <img class="mobMenuArrow" src="img/mobMenuArrodWhite.png" alt=""></a>
+		<div class="nav__div-link">
+			<a class="nav__subLinks nav__subLinks-white" href="read.html">Books</a>
+			<a class="nav__subLinks nav__subLinks-white" href="blog.html">Blog</a>
+		</div>
+	</div>
+	<div class="">
+		<a class="nav__link nav__link-white" href="#">Listen <img class="mobMenuArrow" src="img/mobMenuArrodWhite.png" alt=""></a>
+		<div class="nav__div-link">
+			<a class="nav__subLinks nav__subLinks-white" href="podcast.html">Podcasts</a>
+		</div>
+	</div>
+	<div class="">
+		<a class="nav__link nav__link-white" href="#">Join <img class="mobMenuArrow" src="img/mobMenuArrodWhite.png" alt=""></a>
+		<div class="nav__div-link">
+			<a class="nav__subLinks nav__subLinks-white" href="slack.html">Slack</a>
+			<a class="nav__subLinks nav__subLinks-white" href="newsletter.html">Newsletter</a>
+			<a class="nav__subLinks nav__subLinks-white" href="events.html">Events</a>
+		</div>
+	</div>
+	<div class="">
+		<a class="nav__link nav__link-white" href="#">Support <img class="mobMenuArrow" src="img/mobMenuArrodWhite.png" alt=""></a>
+		<div class="nav__div-link">
+			<a class="nav__subLinks nav__subLinks-white" href="podcast.html">Support</a>
+		</div>
+	</div>
+	<div class="nav-networks-block">
+		<a class="nav-mob-net-icon" href=""><img src="img/navYoutube.png" alt=""></a>
+		<a class="nav-mob-net-icon" href=""><img src="img/navTwitter.png" alt=""></a>
+		<a class="nav-mob-net-icon" href=""><img src="img/navLinked.png" alt=""></a>
+		<a class="nav-mob-net-icon" href=""><img src="img/navGhub.png" alt=""></a>
+	</div>
+	</div>
+	
+	
+</nav>
+
+
+
+<header class="pc__menu pc__menu-blue">
+	<div class="container-fluid">
+		<div class="container">
+			<div class="row ">
+				<div class="col-md-6 text-left">
+					<img src='img/whiteLogo.png' alt="">
+				</div>
+				<div class="col-md-1">
+					<a href="index.html" class="header__links header__links-blue">Home</a>
+				</div>
+				<div class="col-md-1 nav__link-wrap nav__link-wrap-blue">
+					<a href="learn.html" class="header__links header__links-blue">Learn</a>
+					<div class="nav__menu-block nav__menu-block-blue">
+						<a href="learn.html" class="nav__subLink-md">Courses</a>
+						<a href="tools.html" class="nav__subLink-md">Tools</a>
+						<a href="articles.html" class="nav__subLink-md">Articles</a>
+					</div>
+				</div>
+				<div class="col-md-1 nav__link-wrap nav__link-wrap-blue">
+					<a href="read.html" class="header__links header__links-blue active-link-blue">Read</a>
+					<div class="nav__menu-block nav__menu-block-blue">
+						<a href="read.html" class="nav__subLink-md">Books</a>
+						<a href="blog.html" class="nav__subLink-md">Blog</a>
+					</div>
+				</div>
+				<div class="col-md-1 nav__link-wrap nav__link-wrap-blue">
+					<a href="podcast.html" class="header__links header__links-blue">Listen</a>
+					<div class="nav__menu-block nav__menu-block-blue">
+						<a href="podcast.html" class="nav__subLink-md">Podcasts</a>
+					</div>
+				</div>
+				<div class="col-md-1 nav__link-wrap nav__link-wrap-blue">
+					<a href="slack.html" class="header__links header__links-blue">Join</a>
+					<div class="nav__menu-block nav__menu-block-blue">
+						<a href="slack.html" class="nav__subLink-md">Slack</a>
+						<a href="newsletter.html" class="nav__subLink-md">Newsletter</a>
+						<a href="events.html" class="nav__subLink-md">Events</a>
+					</div>
+				</div>
+				<div class="col-md-1 nav__link-wrap nav__link-wrap-blue">
+					<a href=".html" class="header__links header__links-blue"><nobr>Follow us</nobr></a>
+					<div class="nav__menu-block nav__menu-block-blue">
+						<a href="slack.html" class="nav__subLink-md">Youtube</a>
+						<a href="newsletter.html" class="nav__subLink-md">Twitter </a>
+						<a href="events.html" class="nav__subLink-md">LinkedIn</a>
+						<a href="events.html" class="nav__subLink-md">GitHub</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</header>
+	
+<nav>
+	<div class="container-fluid">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-md-12">
+					<a href="read.html">
+						<img src="img/buttonBack.png" alt="">
+					</a>
+					<a href="" class="article__name">
+						NISHANT MOHAN
+					</a>
+					<span class="text-light data">01 JAN 2021</span>
+					<h1 class="h1_title text-light h1-blue-title">
+						How I Landed a Job As a Product Analyst
+					</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+</nav>
+
+<main>
+	<div class="container-fluid generative">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-md-4 generative-photo-block col-12">
+					<img class="generative__photo" src="img/generativeAI.png" alt="">
+				</div>
+				<div class="col-md-8 generative__info-block col-12">
+					<p class="main__subtitle24 generative__description">
+						In this book, you’ll explore the evolution of generative models, from restricted Boltzmann machines and deep belief networks to VAEs and GANs. You’ll learn how to implement models yourself in TensorFlow and get to grips with the latest research on deep neural networks. Available on Amazon.
+					</p>
+
+					<a href="#" class="button-white generative__buttons generative-mob-settings">BOOK`S PAGE</a>
+					<a href="#" class="button-white generative-mob-settings">BOOK`S GITHUB REPOSITORY</a>
+				</div>
+
+				<div class="col-md-12">
+					<h2 class="title generative__title">
+						About This Book
+					</h2>
+					<p class="main__subtitle24">
+						Machines are excelling at creative human skills such as painting, writing, and composing music. Could you be more creative than generative AI?<br><br>	
+
+						In this book, you’ll explore the evolution of generative models, from restricted Boltzmann machines and deep belief networks to VAEs and GANs. You’ll learn how to implement models yourself in TensorFlow and get to grips with the latest research on deep neural networks. <br><br>
+
+						There’s been an explosion in potential use cases for generative models. You’ll look at Open AI’s news generator, deepfakes, and training deep learning agents to navigate a simulated environment. <br><br>
+
+						Recreate the code that’s under the hood and uncover surprising links between text, image, and music generation.
+					</p>
+					<h2 class="title text-center generative__title">
+						Question and Answer
+					</h2>	
+					<div class="row">
+						<div class="col-md-2 col-2 text-center faq__punkt">
+							<p class="faq__num">
+								01
+							</p>
+						</div>
+						<div class="col-md-10 col-10 faq__punkt">
+							<p class="main__subtitle24">
+								<span class="faq__name">Emily Tran asks:</span><br>
+								I have never built a recommendation model but I’m curious: <br>
+								1) How can a recommender destroy an application? In how many ways is it possible?<br><br>
+
+								2) Did you experience some destructive recommenders before? What can you do to save the application?<br><br>
+
+								3) How can you detect such recommenders?<br><br>
+
+								4) Which mistakes can I as a beginner do to lead to those destructive models?<br>
+								You see, I’m a Master student and might or might not build something like that in the future 🙊 thanks in advance 😄
+							</p>
+							
+							<p class="main__subtitle24">
+								<span class="faq__name">Kim Falk answering:</span><br>
+								Hi Emily Tran,<br>
+								Thank you for your questions 🙂<br>
+								1) The ways a recommender system can destroy an application are endless. From a pure engineering point of view, a RecSys can be very resource demanding and slow down everything, which will hurt the application. From a recommender point of view, there is nothing that scares people away faster than bad recommendations. The contrary can also be the case - if a recommender knows the user too well, the user might find it scary. Just to mention a few. <br><br>
+
+								2) Again, it’s hard to say what the solution is if you don’t know the exact problem. In the case where it’s low-quality recommendations, you should have a look at getting better data and tune your recommender. If it is an engineering problem, it is worth considering adding more resources or look to see if you can do more things offline such that it won’t hurt the performance of the system <br><br>
+
+								3) Again depends on the problem. But rule of thumb look for whether you have unhappy users <br><br>
+
+								4) Consider what metrics you want to optimise for and be sure you test your system well. Not just offline, but more importantly, online in production. A lot of research indicates that good offline test results do not ensure good online results. Be sure to have monitoring up and running before adding or updating a recommender such that you can measure any changes in performance. 
+							</p>		
+						</div>
+						<div class="col-md-2 col-2 text-center faq__punkt">
+							<p class="faq__num">
+								02
+							</p>
+						</div>
+						<div class="col-md-10 col-10 faq__punkt">
+							<p class="main__subtitle24">
+								<span class="faq__name">Bayram Kapti asks:</span><br>
+								Thank you Kim Falk! <br>
+								Is it possible to do client side recommendations instead of server side? If so, how does client side recommendation compare to server side ?
+							</p>
+							
+							<p class="main__subtitle24">
+								<span class="faq__name">Kim Falk answering:</span><br>
+								Anything is possible 🙂 As with any data applications it depends on what data you have. <br>
+								There are different ideas about how to do it. One way that seems to be discussed a lot recently is to do federated learning. Where basically you start out with a model trained on the server, this will be sent to each client, where the model will be updated according to the clients actions. This model will then be sent back to the server where the client models will be assimilated, and then it starts over.
+								Have a look at <a href="">this article</a>.
+							</p>		
+						</div>
+							
+						</div>
+					</div>		
+				</div>
+			</div>
+		</div>
+	</div>
+
+<div class="container-fluid event">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-md-7">
+				<h2 class="title text-light">
+					To take part in the book of the week event:
+				</h2>
+				<div class="row">
+					<div class="col-md-2 col-2 plan__dot-wrap">
+						<div class="plan__dot"></div>
+					</div>
+					<div class="col-md-10 col-10 plan__punkts">
+						<p class="plan__subtitle">
+							Register on DataTalks.Club Community
+						</p>
+					</div>
+					<div class="col-md-2 col-2 plan__dot-wrap">
+						<div class="plan__dot"></div>
+					</div>
+					<div class="col-md-10 col-10 plan__punkts">
+						<p class="plan__subtitle">
+							Join the #book-of-the-week channel in our Slack
+						</p>
+					</div>
+					<div class="col-md-2 col-2 plan__dot-wrap">
+						<div class="plan__dot"></div>
+					</div>
+					<div class="col-md-10 col-10 plan__punkts">
+						<p class="plan__subtitle">
+							Ask as many questions as you’d like
+						</p>
+					</div>
+					<div class="col-md-2 col-2 plan__dot-wrap">
+						<div class="plan__dot"></div>
+					</div>
+					<div class="col-md-10 col-10 plan__punkts">
+						<p class="plan__subtitle">
+							The book authors answer questions from Monday till Thursday
+						</p>
+					</div>
+					<div class="col-md-2 col-2 plan__dot-wrap">
+						<div class="plan__dot"></div>
+					</div>
+					<div class="col-md-10 col-10 plan__punkts">
+						<p class="plan__subtitle">
+							On Friday, the authors decide who wins free copies of their book
+						</p>
+					</div>
+					<div class="col-md-12 event__button-wrap">
+						<a href="slack.html" class="button">REGISTER NOW</a>
+					</div>
+					
+				</div>
+			</div>
+			<div class="col-md-5 event__img-back">
+				<img class="event__img" src="img/eventImg.png" alt="">
+			</div>
+		</div>
+	</div>
+</div>
+
+</main>	
+
+
+<section>
+	<div class="container-fluid">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<h2 class="title">Join our Slack</h2>
+					<p class="section__subtitle">
+						Subscribe to our weekly newsletter and join our Slack. We'll keep you informed about everything happening in the Club.
+					</p>
+					<div class="email__form email__form-section">
+						<input class="email__input" name="email" placeholder="Ener your email address.." type="text"><a class="nav__button" href="">JOIN US</a>
+					</div>
+
+					<p class="main__subtitle under-input">
+						You`ll get an invite within 3 minutes
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<footer>
+	<div class="container-fluid footer__pc">
+		<div class="container">
+			<div class="row ">
+				<div class="col-md-4">
+					<img src="img/logoFooter.svg" alt="">
+					<p class="footer__subtitle text-light">
+						Global online community <br>of data  enthusiasts. Join us:
+					</p>
+					<a class="header__networks" href=""><img src="img/youtubeFooter.svg" alt=""></a>
+					<a class="header__networks" href=""><img src="img/twitterFooter.svg" alt=""></a>
+					<a class="header__networks" href=""><img src="img/linkedinFooter.svg" alt=""></a>
+					<a class="header__networks" href=""><img src="img/gitHubFooter.svg" alt=""></a>
+				</div>
+				<div class="col-md">
+					<a class="footer__pages text-light" href="index.html">Home</a>
+				</div>
+				<div class="col-md">
+					<a class="footer__pages text-light" href="learn.html">Learn</a><br><br>
+					<a href="learn.html" class="footer__subpages">Courses</a><br><br>
+					<a href="tools.html" class="footer__subpages">Tools</a><br><br>
+					<a href="articles.html" class="footer__subpages">Articles</a>
+				</div>
+				<div class="col-md">
+					<a class="footer__pages text-light" href="read.html">Read</a><br><br>
+					<a href="books.html" class="footer__subpages">Books</a><br><br>
+					<a href="blog.html" class="footer__subpages">Blog</a>
+
+				</div>
+				<div class="col-md">
+					<a class="footer__pages text-light" href="listen.html">Listen</a><br><br>
+					<a href="podcasts.html" class="footer__subpages">Podcasts</a>
+					
+				</div>
+				<div class="col-md">
+					<a class="footer__pages text-light" href="join.html">Join</a><br><br>
+					<a href="slack.html" class="footer__subpages">Slack</a><br><br>
+					<a href="newsletter.html" class="footer__subpages">Newsletter</a><br><br>
+					<a href="events.html" class="footer__subpages">Events</a>
+				</div>
+				<div class="col-md">
+					<a class="footer__pages text-light" href="support.html">Support</a><br><br>
+					<a href="privacy.html" class="footer__subpages">Privacy Police</a>
+				</div>
+
+				<div class="col-md-12 text-center">
+					<div class="vertical-line"></div>
+					<p class="footer__copyright">Copyright © 2022 DataTalks.Club</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid footer__mob text-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 footer__mob-links-wrap">
+					<div class="row">
+						<div class="col">
+							<a href="index.html" class="header__links header__links-blue text-light"><b>Home</b></a>
+						</div>
+						<div class="col nav__link-wrap ">
+							<a class="header__links header__links-blue text-light"><b>Learn</b></a>
+							<div class="nav__menu-block">
+								<a href="learn.html" class="nav__subLink-md">Courses</a>
+								<a href="tools.html" class="nav__subLink-md">Tools</a>
+								<a href="articles.html" class="nav__subLink-md">Articles</a>
+							</div>
+						</div>
+						<div class="col nav__link-wrap">
+							<a class="header__links header__links-blue text-light"><b>Read</b></a>
+							<div class="nav__menu-block">
+								<a href="read.html" class="nav__subLink-md">Books</a>
+								<a href="blog.html" class="nav__subLink-md">Blog</a>
+							</div>
+						</div>
+						<div class="col nav__link-wrap">
+							<a class="header__links header__links-blue text-light"><b>Listen</b></a>
+							<div class="nav__menu-block">
+								<a href="podcast.html" class="nav__subLink-md">Podcasts</a>
+							</div> 
+						</div>
+						<div class="col  nav__link-wrap">
+							<a  class="header__links header__links-blue text-light"><b>Join</b></a>
+							<div class="nav__menu-block">
+								<a href="slack.html" class="nav__subLink-md">Slack</a>	
+								<a href="newsletter.html" class="nav__subLink-md">Newsletter</a>	
+								<a href="events.html" class="nav__subLink-md">Events</a>	
+							</div> 	
+						</div>
+					</div>
+				</div>
+				<div class="col-md-12">
+					<a href=""><img class="footer__net-links" src="img/youtubeFooter.svg" alt=""></a>
+					<a href=""><img class="footer__net-links" src="img/twitterFooter.svg" alt=""></a>
+					<a href=""><img class="footer__net-links" src="img/linkedinFooter.svg" alt=""></a>
+					<a href=""><img class="footer__net-links" src="img/gitHubFooter.svg" alt=""></a>
+				</div>
+				<div class="col-md-12 ">
+					<p class="footer__mob-copyright">Copyright © 2022 DataTalks.Club</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="js/main.js"> 
+	
+</script>
+</body>
+</html>

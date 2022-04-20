@@ -1,0 +1,14 @@
+@media screen and (max-width: 576px){
+	.main__date{
+		font-size: 10px;
+	}
+	.articles__mark-text {
+    	font-size: 10px !important;
+	}
+	.main__subtitle{
+		margin: 10px 0;
+	}
+	.article__title{
+		padding-top: 10px;
+	}
+}

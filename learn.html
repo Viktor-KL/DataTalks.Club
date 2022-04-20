@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Courses</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/learn.css">
+	<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+	
+<nav class="mobile__menu">
+	<header class="nav__header">
+		<img class="mob-nav__logo" src="img/logo.png" alt="">
+		<div class="nav__burger" onclick="toChange(this)">
+					<div class="bar1"></div>
+					<div class="bar2"></div>
+					<div class="bar3"></div>
+				</div>
+	</header>
+	<div class="mobile__menu-links">
+		<div class="">
+		<a class="nav__link" href="index.html">Home</a>
+	</div>
+	<div class="">
+		<a class="nav__link">Learn <img class="mobMenuArrow" src="img/mobMenuArrod.png" alt=""></a>
+		<div class="nav__div-link">
+			<a class="nav__subLinks" href="learn.html">Courses</a>
+			<a class="nav__subLinks" href="tools.html">Tools</a>
+			<a class="nav__subLinks" href="articles.html">Articles</a>
+		</div>
+	</div>
+
+	<div class="">
+		<a class="nav__link" href="#">Read <img class="mobMenuArrow" src="img/mobMenuArrod.png" alt=""></a>
+		<div class="nav__div-link">
+			<a class="nav__subLinks" href="read.html">Books</a>
+			<a class="nav__subLinks" href="blog.html">Blog</a>
+		</div>
+	</div>
+	<div class="">
+		<a class="nav__link" href="#">Listen <img class="mobMenuArrow" src="img/mobMenuArrod.png" alt=""></a>
+		<div class="nav__div-link">
+			<a class="nav__subLinks" href="podcast.html">Podcasts</a>
+		</div>
+	</div>
+	<div class="">
+		<a class="nav__link" href="#">Join <img class="mobMenuArrow" src="img/mobMenuArrod.png" alt=""></a>
+		<div class="nav__div-link">
+			<a class="nav__subLinks" href="slack.html">Slack</a>
+			<a class="nav__subLinks" href="newsletter.html">Newsletter</a>
+			<a class="nav__subLinks" href="events.html">Events</a>
+		</div>
+	</div>
+	<div class="">
+		<a class="nav__link" href="#">Support <img class="mobMenuArrow" src="img/mobMenuArrod.png" alt=""></a>
+		<div class="nav__div-link">
+			<a class="nav__subLinks" href="podcast.html">Support</a>
+		</div>
+	</div>
+	<div class="nav-networks-block">
+		<a class="nav-mob-net-icon" href=""><img src="img/navYoutube.png" alt=""></a>
+		<a class="nav-mob-net-icon" href=""><img src="img/navTwitter.png" alt=""></a>
+		<a class="nav-mob-net-icon" href=""><img src="img/navLinked.png" alt=""></a>
+		<a class="nav-mob-net-icon" href=""><img src="img/navGhub.png" alt=""></a>
+	</div>
+	</div>
+	
+	
+</nav>
+
+
+
+<header class="pc__menu">
+	<div class="container-fluid">
+		<div class="container">
+			<div class="row ">
+				<div class="col-md-6 text-left">
+					<img src='img/logo.png' alt="">
+				</div>
+				<div class="col-md-1">
+					<a href="index.html" class="header__links">Home</a>
+				</div>
+				<div class="col-md-1 nav__link-wrap">
+					<a href="learn.html" class="header__links active-link">Learn</a>
+					<div class="nav__menu-block">
+						<a href="learn.html" class="nav__subLink-md">Courses</a>
+						<a href="tools.html" class="nav__subLink-md">Tools</a>
+						<a href="articles.html" class="nav__subLink-md">Articles</a>
+					</div>
+				</div>
+				<div class="col-md-1 nav__link-wrap">
+					<a href="read.html" class="header__links">Read</a>
+					<div class="nav__menu-block">
+						<a href="read.html" class="nav__subLink-md">Books</a>
+						<a href="blog.html" class="nav__subLink-md">Blog</a>
+					</div>
+				</div>
+				<div class="col-md-1 nav__link-wrap">
+					<a href="podcast.html" class="header__links">Listen</a>
+					<div class="nav__menu-block">
+						<a href="podcast.html" class="nav__subLink-md">Podcasts</a>
+					</div>
+				</div>
+				<div class="col-md-1 nav__link-wrap">
+					<a href="slack.html" class="header__links">Join</a>
+					<div class="nav__menu-block">
+						<a href="slack.html" class="nav__subLink-md">Slack</a>
+						<a href="newsletter.html" class="nav__subLink-md">Newsletter</a>
+						<a href="events.html" class="nav__subLink-md">Events</a>
+					</div>
+				</div>
+				<div class="col-md-1 nav__link-wrap">
+					<a href=".html" class="header__links"><nobr>Follow us</nobr></a>
+					<div class="nav__menu-block">
+						<a href="slack.html" class="nav__subLink-md">Youtube</a>
+						<a href="newsletter.html" class="nav__subLink-md">Twitter </a>
+						<a href="events.html" class="nav__subLink-md">LinkedIn</a>
+						<a href="events.html" class="nav__subLink-md">GitHub</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</header>
+
+
+
+
+<nav>
+	<div class="container-fluid">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-md-6 col-12 nav__info-block">
+					<h1 class="h1_title">
+						Intense your skills with DataTalks.Club
+					</h1>
+					<p class="subtitle nav__subtitle-pading">Discover the fast and effective way to learning. We provide you all materials online and free!</p>
+					<a href="detailed.html" class="button">START LEARNING</a>
+				</div>
+				<div class="col-md-6 nav__photo-block">
+					<img class="nav__img" src="img/learnNavImg.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+</nav>
+
+
+<main>
+	
+
+<div class="container-fluid learning__bg">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<h2 class="title">Machine Learning Zoomcamp</h2>
+				<p class="learning__date">September 2021 – December 2021</p>
+				<p class="learning__subtitle">
+					Learn machine learning engineering in 4 months. Online and free!
+				</p>
+				<div class="row align-items-center">
+					<div class="col-md-2 col-2 text-right">
+						<div class="learning__dot"></div>
+						
+					</div>
+					<div class="col-md-10 col-10">
+						<p class="learning__info-subtitle">
+							Each week, there’s a lecture and a homework assignment.
+						</p>
+					</div>
+					<div class="col-md-2 col-2 text-right">
+						<div class="learning__dot"></div>
+						
+					</div>
+					<div class="col-md-10 col-10">
+						<p class="learning__info-subtitle">
+							We have two projects: in the middle of the class and a capstone project at the end. Those who complete these two projects get a certificate.
+						</p>
+					</div>
+					<div class="col-md-2 col-2 text-right">
+						<div class="learning__dot"></div>
+						
+					</div>
+					<div class="col-md-10 col-10">
+						<p class="learning__info-subtitle">
+							For homework, projects and other activities, you’ll get scores. At the end, we’ll publish the list of top 100 participants on our website.
+						</p>
+					</div>
+					<div class="col-md-12 learning__button-wrap">
+						<a href="detailed.html" class="button learning__footer-buttons">REGISTER NOW</a>
+						<a href="detailed.html" class="button-white learning__button learning__footer-buttons">LEARN MORE</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4"></div>
+		</div>
+	</div>
+</div>
+
+
+
+<div class="container-fluid learning__bg-left">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-md-4"></div>
+			<div class="col-md-8 learning__blocks">
+				<h2 class="title">Data Engineering Zoomcamp</h2>
+				<p class="learning__date">JANUARY 2022 – APRIL 2022</p>
+				<p class="learning__subtitle">
+					Learn machine learning engineering in 4 months. Online and free!
+				</p>
+				<div class="row align-items-center">
+					<div class="col-md-2 col-2 text-right">
+						<div class="learning__dot"></div>
+						
+					</div>
+					<div class="col-md-10 col-10">
+						<p class="learning__info-subtitle">
+							Each week, there’s a lecture and a homework assignment.
+						</p>
+					</div>
+					<div class="col-md-2 col-2 text-right">
+						<div class="learning__dot"></div>
+						
+					</div>
+					<div class="col-md-10 col-10">
+						<p class="learning__info-subtitle">
+							We have two projects: in the middle of the class and a capstone project at the end. Those who complete these two projects get a certificate.
+						</p>
+					</div>
+					<div class="col-md-2 col-2 text-right">
+						<div class="learning__dot"></div>
+						
+					</div>
+					<div class="col-md-10 col-10">
+						<p class="learning__info-subtitle">
+							For homework, projects and other activities, you’ll get scores. At the end, we’ll publish the list of top 100 participants on our website.
+						</p>
+					</div>
+					<div class="col-md-12 learning__button-wrap">
+						<a href="detailed.html" class="button learning__footer-buttons">REGISTER NOW</a>
+						<a href="detailed.html" class="button-white learning__button learning__footer-buttons">LEARN MORE</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+			
+		
+
+
+<div class="container-fluid courses">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2 class="title">Upcoming Courses</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6 text-center">
+				
+			<div class="wrp">
+				<div class="courses__blocks">
+					<p class="courses__block-date">
+						FEBRUARY 2022
+					</p>
+					<h3 class="courses__block-title">
+						Cleaning Data in Python
+					</h3>
+					<p class="main__subtitle courses__subtitle">
+						Learn to diagnose and treat dirty data and develop the skills needed to transform your raw data into accurate insights!
+					</p>
+
+					<a href="detailed.html" class="button">REGISTER NOW</a>
+					<a href="detailed.html" class="button-white learning__button">LEARN MORE</a>
+				</div>
+			</div>
+
+			<div class="wrp">
+				<div class="courses__blocks">
+					<p class="courses__block-date">
+						MARCH 2022
+					</p>
+					<h3 class="courses__block-title">
+						Introduction to R
+					</h3>
+					<p class="main__subtitle courses__subtitle">
+						Master the basics of data analysis by manipulating common data structures such as vectors, matrices, and data frames.
+					</p>
+					<a href="detailed.html" class="button">REGISTER NOW</a>
+					<a href="detailed.html" class="button-white learning__button">LEARN MORE</a>
+				</div>
+			</div>
+			
+		</div>
+		<div class="col-md-6 text-center">
+			<div class="wrp">
+				<div class="courses__blocks">
+					<p class="courses__block-date">
+						FEBRUARY 2022
+					</p>
+					<h3 class="courses__block-title">
+						Introduction to SQL Server
+					</h3>
+					<p class="main__subtitle courses__subtitle">
+						You'll become proficient in the most common data manipulation tasks in SQL Servers.
+					</p>
+					<a href="detailed.html" class="button">REGISTER NOW</a>
+					<a href="detailed.html" class="button-white learning__button">LEARN MORE</a>
+				</div>
+			</div>
+			
+			<div class="wrp">
+				<div class="courses__blocks">
+					<p class="courses__block-date">
+						MAY 2022 - AUGUST 2022
+					</p>
+					<h3 class="courses__block-title">
+						Learn how to use NumPy, Pandas, Seaborn, Scikit-Learn , Machine Learning and more!
+					</h3>
+					<p class="main__subtitle courses__subtitle-last">
+						Learn how to use NumPy, Pandas, Seaborn, Scikit-Learn , Machine Learning and more!
+					</p>
+					<a href="detailed.html" class="button">REGISTER NOW</a>
+					<a href="detailed.html" class="button-white learning__button">LEARN MORE</a>
+				</div>
+			</div>
+			
+		</div>
+		</div>
+		
+	</div>
+</div>
+<div class="container-fluid coursesMob">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2 class="title">Upcoming Courses</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 text-center">
+				
+			<div class="wrp">
+				<div class="courses__blocks">
+					<p class="courses__block-date">
+						FEBRUARY 2022
+					</p>
+					<h3 class="courses__block-title">
+						Cleaning Data in Python
+					</h3>
+					<p class="main__subtitle courses__subtitle">
+						Learn to diagnose and treat dirty data and develop the skills needed to transform your raw data into accurate insights!
+					</p>
+
+					<a href="detailed.html" class="button">REGISTER NOW</a>
+					<a href="detailed.html" class="button-white learning__button">LEARN MORE</a>
+				</div>
+			</div>
+
+			<div class="wrp">
+				<div class="courses__blocks">
+					<p class="courses__block-date">
+						MARCH 2022
+					</p>
+					<h3 class="courses__block-title">
+						Introduction to R
+					</h3>
+					<p class="main__subtitle courses__subtitle">
+						Master the basics of data analysis by manipulating common data structures such as vectors, matrices, and data frames.
+					</p>
+					<a href="detailed.html" class="button">REGISTER NOW</a>
+					<a href="detailed.html" class="button-white learning__button">LEARN MORE</a>
+				</div>
+			</div>
+			
+		</div>
+		<div class="col-md-12 text-center">
+			<div class="wrp">
+				<div class="courses__blocks">
+					<p class="courses__block-date">
+						FEBRUARY 2022
+					</p>
+					<h3 class="courses__block-title">
+						Introduction to SQL Server
+					</h3>
+					<p class="main__subtitle courses__subtitle">
+						You'll become proficient in the most common data manipulation tasks in SQL Servers.
+					</p>
+					<a href="detailed.html" class="button">REGISTER NOW</a>
+					<a href="detailed.html" class="button-white learning__button">LEARN MORE</a>
+				</div>
+			</div>
+			
+			<div class="wrp">
+				<div class="courses__blocks">
+					<p class="courses__block-date">
+						MAY 2022 - AUGUST 2022
+					</p>
+					<h3 class="courses__block-title">
+						Learn how to use NumPy, Pandas, Seaborn, Scikit-Learn , Machine Learning and more!
+					</h3>
+					<p class="main__subtitle courses__subtitle-last">
+						Learn how to use NumPy, Pandas, Seaborn, Scikit-Learn , Machine Learning and more!
+					</p>
+					<a href="detailed.html" class="button">REGISTER NOW</a>
+					<a href="detailed.html" class="button-white learning__button">LEARN MORE</a>
+				</div>
+			</div>
+			
+		</div>
+		</div>
+		
+	</div>
+</div>
+
+<div class="container-fluid courses">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2 class="title">Upcoming Courses</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6 text-center">
+				
+			<div class="wrp">
+				<div class="courses__blocks">
+					<p class="courses__block-date">
+						FEBRUARY 2022
+					</p>
+					<h3 class="courses__block-title">
+						Cleaning Data in Python
+					</h3>
+					<p class="main__subtitle courses__subtitle">
+						Learn to diagnose and treat dirty data and develop the skills needed to transform your raw data into accurate insights!
+					</p>
+
+					<a href="detailed.html" class="button">REGISTER NOW</a>
+					<a href="detailed.html" class="button-white learning__button">LEARN MORE</a>
+				</div>
+			</div>
+
+			<div class="wrp">
+				<div class="courses__blocks">
+					<p class="courses__block-date">
+						MARCH 2022
+					</p>
+					<h3 class="courses__block-title">
+						Introduction to R
+					</h3>
+					<p class="main__subtitle courses__subtitle">
+						Master the basics of data analysis by manipulating common data structures such as vectors, matrices, and data frames.
+					</p>
+					<a href="detailed.html" class="button">REGISTER NOW</a>
+					<a href="detailed.html" class="button-white learning__button">LEARN MORE</a>
+				</div>
+			</div>
+			
+		</div>
+		<div class="col-md-6 text-center">
+			<div class="wrp">
+				<div class="courses__blocks">
+					<p class="courses__block-date">
+						FEBRUARY 2022
+					</p>
+					<h3 class="courses__block-title">
+						Introduction to SQL Server
+					</h3>
+					<p class="main__subtitle courses__subtitle">
+						You'll become proficient in the most common data manipulation tasks in SQL Servers.
+					</p>
+					<a href="detailed.html" class="button">REGISTER NOW</a>
+					<a href="detailed.html" class="button-white learning__button">LEARN MORE</a>
+				</div>
+			</div>
+			
+			<div class="wrp">
+				<div class="courses__blocks">
+					<p class="courses__block-date">
+						MAY 2022 - AUGUST 2022
+					</p>
+					<h3 class="courses__block-title">
+						Learn how to use NumPy, Pandas, Seaborn, Scikit-Learn , Machine Learning and more!
+					</h3>
+					<p class="main__subtitle courses__subtitle-last">
+						Learn how to use NumPy, Pandas, Seaborn, Scikit-Learn , Machine Learning and more!
+					</p>
+					<a href="detailed.html" class="button">REGISTER NOW</a>
+					<a href="detailed.html" class="button-white learning__button">LEARN MORE</a>
+				</div>
+			</div>
+			
+		</div>
+		</div>
+		
+	</div>
+</div>
+<div class="container-fluid coursesMob2">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2 class="title text-light">Upcoming Courses</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 text-center">
+				
+			<div class="wrp">
+				<div class="courses__blocks">
+					<p class="courses__block-date">
+						FEBRUARY 2022
+					</p>
+					<h3 class="courses__block-title">
+						Cleaning Data in Python
+					</h3>
+					<p class="main__subtitle courses__subtitle">
+						Learn to diagnose and treat dirty data and develop the skills needed to transform your raw data into accurate insights!
+					</p>
+
+					<a href="detailed.html" class="button">REGISTER NOW</a>
+					<a href="detailed.html" class="button-white learning__button">LEARN MORE</a>
+				</div>
+			</div>
+
+			<div class="wrp">
+				<div class="courses__blocks">
+					<p class="courses__block-date">
+						MARCH 2022
+					</p>
+					<h3 class="courses__block-title">
+						Introduction to R
+					</h3>
+					<p class="main__subtitle courses__subtitle">
+						Master the basics of data analysis by manipulating common data structures such as vectors, matrices, and data frames.
+					</p>
+					<a href="detailed.html" class="button">REGISTER NOW</a>
+					<a href="detailed.html" class="button-white learning__button">LEARN MORE</a>
+				</div>
+			</div>
+			
+		</div>
+		</div>
+		</div>
+		
+	</div>
+</div>
+
+
+
+<div class="container-fluid past-courses">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-md-12">
+				<h2 class="title">
+					Past Courses
+				</h2>
+			</div>
+			<div class="col-md-6 text-center">
+				<div class="past__blocks">
+					<p class="courses__block-date">
+						DECEMBER 2021
+					</p>
+					<h3 class="courses__block-title">
+						Introduction to Python
+					</h3>
+					<p class="main__subtitle courses__subtitle">
+						Master the basics of data analysis in Python. Expand your skillset by learning scientific computing with NumPy.
+					</p>
+				</div>
+				<div class="past__blocks">
+					<p class="courses__block-date">
+						DECEMBER 2021
+					</p>
+					<h3 class="courses__block-title">
+						Introduction to Python
+					</h3>
+					<p class="main__subtitle courses__subtitle">
+						Master the basics of data analysis in Python. Expand your skillset by learning scientific computing with NumPy.
+					</p>
+				</div>
+				<div class="past__blocks">
+					<p class="courses__block-date">
+						DECEMBER 2021
+					</p>
+					<h3 class="courses__block-title">
+						Introduction to Python
+					</h3>
+					<p class="main__subtitle courses__subtitle">
+						Master the basics of data analysis in Python. Expand your skillset by learning scientific computing with NumPy.
+					</p>
+				</div>
+			</div>
+			<div class="col-md-6 text-center">
+				<div class="past__blocks">
+					<p class="courses__block-date">
+						DECEMBER 2021
+					</p>
+					<h3 class="courses__block-title">
+						Introduction to Python
+					</h3>
+					<p class="main__subtitle courses__subtitle">
+						Master the basics of data analysis in Python. Expand your skillset by learning scientific computing with NumPy.
+					</p>
+				</div>
+				<div class="past__blocks">
+					<p class="courses__block-date">
+						DECEMBER 2021
+					</p>
+					<h3 class="courses__block-title">
+						Introduction to Python
+					</h3>
+					<p class="main__subtitle courses__subtitle">
+						Master the basics of data analysis in Python. Expand your skillset by learning scientific computing with NumPy.
+					</p>
+				</div>
+				<div class="past__blocks">
+					<p class="courses__block-date">
+						DECEMBER 2021
+					</p>
+					<h3 class="courses__block-title">
+						Introduction to Python
+					</h3>
+					<p class="main__subtitle courses__subtitle">
+						Master the basics of data analysis in Python. Expand your skillset by learning scientific computing with NumPy.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container-fluid past-courses__mobile">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-md-12">
+				<h2 class="title">
+					Past Courses
+				</h2>
+			</div>
+			<div class="col-md-6 text-center">
+				<div class="past__blocks">
+					<p class="courses__block-date">
+						DECEMBER 2021
+					</p>
+					<h3 class="courses__block-title">
+						Introduction to Python
+					</h3>
+					<p class="main__subtitle courses__subtitle">
+						Master the basics of data analysis in Python. Expand your skillset by learning scientific computing with NumPy.
+					</p>
+				</div>
+				<div class="past__blocks">
+					<p class="courses__block-date">
+						DECEMBER 2021
+					</p>
+					<h3 class="courses__block-title">
+						Introduction to Python
+					</h3>
+					<p class="main__subtitle courses__subtitle">
+						Master the basics of data analysis in Python. Expand your skillset by learning scientific computing with NumPy.
+					</p>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</div>
+</main>
+
+<footer>
+	<div class="container-fluid footer__pc">
+		<div class="container">
+			<div class="row ">
+				<div class="col-md-4">
+					<img src="img/logoFooter.svg" alt="">
+					<p class="footer__subtitle text-light">
+						Global online community <br>of data  enthusiasts. Join us:
+					</p>
+					<a href=""><img class="footer__net-links" src="img/youtubeFooter.svg" alt=""></a>
+					<a href=""><img class="footer__net-links" src="img/twitterFooter.svg" alt=""></a>
+					<a href=""><img class="footer__net-links" src="img/linkedinFooter.svg" alt=""></a>
+					<a href=""><img class="footer__net-links" src="img/gitHubFooter.svg" alt=""></a>
+				</div>
+				<div class="col-md">
+					<a class="footer__pages text-light" href="index.html">Home</a>
+				</div>
+				<div class="col-md">
+					<a class="footer__pages text-light" href="learn.html">Learn</a><br><br>
+					<a href="learn.html" class="footer__subpages">Courses</a><br><br>
+					<a href="tools.html" class="footer__subpages">Tools</a><br><br>
+					<a href="articles.html" class="footer__subpages">Articles</a>
+				</div>
+				<div class="col-md">
+					<a class="footer__pages text-light" href="read.html">Read</a><br><br>
+					<a href="books.html" class="footer__subpages">Books</a><br><br>
+					<a href="blog.html" class="footer__subpages">Blog</a>
+
+				</div>
+				<div class="col-md">
+					<a class="footer__pages text-light" href="listen.html">Listen</a><br><br>
+					<a href="podcasts.html" class="footer__subpages">Podcasts</a>
+					
+				</div>
+				<div class="col-md">
+					<a class="footer__pages text-light" href="join.html">Join</a><br><br>
+					<a href="slack.html" class="footer__subpages">Slack</a><br><br>
+					<a href="newsletter.html" class="footer__subpages">Newsletter</a><br><br>
+					<a href="events.html" class="footer__subpages">Events</a>
+				</div>
+				<div class="col-md">
+					<a class="footer__pages text-light" href="support.html">Support</a><br><br>
+					<a href="privacy.html" class="footer__subpages">Privacy Police</a>
+				</div>
+
+				<div class="col-md-12 text-center">
+					<div class="vertical-line"></div>
+					<p class="footer__copyright">Copyright © 2022 DataTalks.Club</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid footer__mob text-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 footer__mob-links-wrap">
+					<div class="row">
+						<div class="col">
+							<a href="index.html" class="header__links text-light"><b>Home</b></a>
+						</div>
+						<div class="col nav__link-wrap ">
+							<a class="header__links text-light"><b>Learn</b></a>
+							<div class="nav__menu-block">
+								<a href="learn.html" class="nav__subLink-md">Courses</a>
+								<a href="tools.html" class="nav__subLink-md">Tools</a>
+								<a href="articles.html" class="nav__subLink-md">Articles</a>
+							</div>
+						</div>
+						<div class="col nav__link-wrap">
+							<a class="header__links text-light"><b>Read</b></a>
+							<div class="nav__menu-block">
+								<a href="read.html" class="nav__subLink-md">Books</a>
+								<a href="blog.html" class="nav__subLink-md">Blog</a>
+							</div>
+						</div>
+						<div class="col nav__link-wrap">
+							<a class="header__links text-light"><b>Listen</b></a>
+							<div class="nav__menu-block">
+								<a href="podcast.html" class="nav__subLink-md">Podcasts</a>
+							</div> 
+						</div>
+						<div class="col  nav__link-wrap">
+							<a  class="header__links text-light"><b>Join</b></a>
+							<div class="nav__menu-block">
+								<a href="slack.html" class="nav__subLink-md">Slack</a>	
+								<a href="newsletter.html" class="nav__subLink-md">Newsletter</a>	
+								<a href="events.html" class="nav__subLink-md">Events</a>	
+							</div> 	
+						</div>
+					</div>
+				</div>
+				<div class="col-md-12">
+					<a href=""><img class="footer__net-links" src="img/youtubeFooter.svg" alt=""></a>
+					<a href=""><img class="footer__net-links" src="img/twitterFooter.svg" alt=""></a>
+					<a href=""><img class="footer__net-links" src="img/linkedinFooter.svg" alt=""></a>
+					<a href=""><img class="footer__net-links" src="img/gitHubFooter.svg" alt=""></a>
+				</div>
+				<div class="col-md-12 ">
+					<p class="footer__mob-copyright">Copyright © 2022 DataTalks.Club</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="js/main.js"> 
+	
+</script>
+
+</body>
+</html>

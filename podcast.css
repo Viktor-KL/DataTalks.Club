@@ -1,0 +1,59 @@
+
+.season{
+	padding: 60px 0;
+}
+.season__block{
+	width: 770px;
+	height: 220px;
+	box-shadow: 5px 6px 20px rgba(46, 60, 81, 0.2);
+	border-radius: 10px;
+	padding: 25px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.season__series-title{
+	font-size: 22px;
+	font-weight: 500;
+	color: #2056A2;
+	font-family: 'Ubuntu';
+	display: block;
+	margin-bottom: -15px;
+}
+.season__series-title:hover{
+	color: #2056A2;
+}
+.season__series-name{
+	font-size: 14px;
+	color: #565656;
+	font-weight: 600;
+	background: #F2F8FF;
+	padding: 7px;
+}
+.season__button{
+	font-size: 16px;
+	color: #2056A2;
+}
+.season__button:hover{
+	text-decoration: none;
+	color: #2056A2;
+}
+.main__subtitle20{
+	margin: 10px 0;
+}
+
+.podcast__main-subtitle{
+	width: 600px;
+	padding: 25px 0;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 992px){
+	.switch-button{
+		font-size: 14px;
+	}
+}
+@media screen and (max-width: 768px){
+	.podcast__main-subtitle{
+		width: 500px;
+	}
+}

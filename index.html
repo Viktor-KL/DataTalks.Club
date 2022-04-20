@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DataTalks.Club</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body class="index-body">
+
+<nav class="mobile__menu">
+	<header class="nav__header">
+		<img class="mob-nav__logo" src="img/logo.png" alt="">
+		<div class="nav__burger" onclick="toChange(this)">
+					<div class="bar1"></div>
+					<div class="bar2"></div>
+					<div class="bar3"></div>
+				</div>
+	</header>
+	<div class="mobile__menu-links">
+		<div class="">
+		<a class="nav__link" href="index.html">Home</a>
+	</div>
+	<div class="">
+		<a class="nav__link">Learn <img class="mobMenuArrow" src="img/mobMenuArrod.png" alt=""></a>
+		<div class="nav__div-link">
+			<a class="nav__subLinks" href="learn.html">Courses</a>
+			<a class="nav__subLinks" href="tools.html">Tools</a>
+			<a class="nav__subLinks" href="articles.html">Articles</a>
+		</div>
+	</div>
+
+	<div class="">
+		<a class="nav__link" href="#">Read <img class="mobMenuArrow" src="img/mobMenuArrod.png" alt=""></a>
+		<div class="nav__div-link">
+			<a class="nav__subLinks" href="read.html">Books</a>
+			<a class="nav__subLinks" href="blog.html">Blog</a>
+		</div>
+	</div>
+	<div class="">
+		<a class="nav__link" href="#">Listen <img class="mobMenuArrow" src="img/mobMenuArrod.png" alt=""></a>
+		<div class="nav__div-link">
+			<a class="nav__subLinks" href="podcast.html">Podcasts</a>
+		</div>
+	</div>
+	<div class="">
+		<a class="nav__link" href="#">Join <img class="mobMenuArrow" src="img/mobMenuArrod.png" alt=""></a>
+		<div class="nav__div-link">
+			<a class="nav__subLinks" href="slack.html">Slack</a>
+			<a class="nav__subLinks" href="newsletter.html">Newsletter</a>
+			<a class="nav__subLinks" href="events.html">Events</a>
+		</div>
+	</div>
+	<div class="">
+		<a class="nav__link" href="#">Support <img class="mobMenuArrow" src="img/mobMenuArrod.png" alt=""></a>
+		<div class="nav__div-link">
+			<a class="nav__subLinks" href="podcast.html">Support</a>
+		</div>
+	</div>
+	<div class="nav-networks-block">
+		<a class="nav-mob-net-icon" href=""><img src="img/navYoutube.png" alt=""></a>
+		<a class="nav-mob-net-icon" href=""><img src="img/navTwitter.png" alt=""></a>
+		<a class="nav-mob-net-icon" href=""><img src="img/navLinked.png" alt=""></a>
+		<a class="nav-mob-net-icon" href=""><img src="img/navGhub.png" alt=""></a>
+	</div>
+	</div>
+	
+	
+</nav>
+
+
+
+<header class="pc__menu">
+	<div class="container-fluid">
+		<div class="container">
+			<div class="row ">
+				<div class="col-md-6 text-left">
+					<img src='img/logo.png' alt="">
+				</div>
+				<div class="col-md-1">
+					<a href="index.html" class="header__links active-link">Home</a>
+				</div>
+				<div class="col-md-1 nav__link-wrap">
+					<a href="learn.html" class="header__links">Learn</a>
+					<div class="nav__menu-block">
+						<a href="learn.html" class="nav__subLink-md">Courses</a>
+						<a href="tools.html" class="nav__subLink-md">Tools</a>
+						<a href="articles.html" class="nav__subLink-md">Articles</a>
+					</div>
+				</div>
+				<div class="col-md-1 nav__link-wrap">
+					<a href="read.html" class="header__links">Read</a>
+					<div class="nav__menu-block">
+						<a href="read.html" class="nav__subLink-md">Books</a>
+						<a href="blog.html" class="nav__subLink-md">Blog</a>
+					</div>
+				</div>
+				<div class="col-md-1 nav__link-wrap">
+					<a href="podcast.html" class="header__links">Listen</a>
+					<div class="nav__menu-block">
+						<a href="podcast.html" class="nav__subLink-md">Podcasts</a>
+					</div>
+				</div>
+				<div class="col-md-1 nav__link-wrap">
+					<a href="slack.html" class="header__links">Join</a>
+					<div class="nav__menu-block">
+						<a href="slack.html" class="nav__subLink-md">Slack</a>
+						<a href="newsletter.html" class="nav__subLink-md">Newsletter</a>
+						<a href="events.html" class="nav__subLink-md">Events</a>
+					</div>
+				</div>
+				<div class="col-md-1 nav__link-wrap">
+					<a href=".html" class="header__links"><nobr>Follow us</nobr></a>
+					<div class="nav__menu-block">
+						<a href="slack.html" class="nav__subLink-md">Youtube</a>
+						<a href="newsletter.html" class="nav__subLink-md">Twitter </a>
+						<a href="events.html" class="nav__subLink-md">LinkedIn</a>
+						<a href="events.html" class="nav__subLink-md">GitHub</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</header>
+
+
+<nav>
+	<div class="container-fluid">
+		<div class="container">
+			<div class="row align-items-center">
+					<div class="col-md-5 col-12 nav__info-block">
+						<h1 class="h1_title">The place to talk about data</h1>
+						<p class="subtitle">
+							Global online community of data enthusiasts. 
+						</p>
+						<div class="email__form">
+							<input class="email__input" name="email" placeholder="Ener your email address.." type="text"><a class="nav__button" href="">JOIN US</a>
+					</div>
+					<p class="nav__subtitle">Subscribe to our weekly newsletter and join our Slack.
+					We'll keep you informed about everything happening in the Club. You'll get an invite within 3 minutes.
+					</p>
+				</div>	
+				<div class="col-md-7 nav__photo-block">
+					<img src="img/navImage.png" alt="" class="nav__img">
+				</div>
+			</div>
+		</div>
+	</div>
+</nav>
+	
+
+<main>
+	
+
+	<div class="container-fluid about">
+		<div class="container ">
+			<div class="row align-items-center">
+				<div class="col-md-4">
+					<h2 class="title">About Us</h2>
+					<p class="main__subtitle">
+						We are online community of data enthusiasts. Regular sharing our opinios, knowledge about machine
+						learning and engineering. 
+					</p>
+					<a href="slack.html" class="button">LEARN MORE</a>
+				</div>
+				<div class="col-md-4 text-center">
+					<div class="about__cards">
+						<img class="about__img" src="img/aboutDTC.png" alt="">
+						<p class="about__subtitles">
+							Talk about analytics, machine learning, and engineering.
+						</p>
+					</div>
+					<div class="about__cards">
+						<img class="about__img" src="img/aboutUP.png" alt="">
+						<p class="about__subtitles">
+							Attend weekly events,
+							conferences, and office hours.
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4 about__right-cards text-center">
+					<div class="about__cards">
+						<img class="about__img" src="img/aboutUP.png" alt="">
+						<p class="about__subtitles">
+							Ask career questions and
+							discuss career options.
+						</p>
+					</div>
+					<div class="about__cards">
+						<img class="about__img" src="img/aboutStairs.png" alt="">
+						<p class="about__subtitles">
+							Listen to our podcasts, learn new things and get our courses.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid aboutMob">
+		<div class="container ">
+			<div class="row align-items-center">
+				<div class="col-md-12 about__title text-center">
+					<h2 class="title">About Us</h2>
+					
+				</div>
+				<div class="col-md-6 col-12 about__card-wrap text-center">
+					<div class="about__cards">
+						<img class="about__img" src="img/aboutDTC.png" alt="">
+						<p class="about__subtitles">
+							Talk about analytics, machine learning, and engineering.
+						</p>
+					</div>
+					<div class="about__cards">
+						<img class="about__img" src="img/aboutUP.png" alt="">
+						<p class="about__subtitles">
+							Attend weekly events,
+							conferences, and office hours.
+						</p>
+					</div>
+				</div>
+				<div class="col-md-6 col-12 about__card-wrap about__right-cards text-center">
+					<div class="about__cards">
+						<img class="about__img" src="img/aboutUP.png" alt="">
+						<p class="about__subtitles">
+							Ask career questions and
+							discuss career options.
+						</p>
+					</div>
+					<div class="about__cards">
+						<img class="about__img" src="img/aboutStairs.png" alt="">
+						<p class="about__subtitles">
+							Listen to our podcasts, learn new things and get our courses.
+						</p>
+					</div>
+				</div>
+				<div class="col-md-12 text-center">
+					<p class="main__subtitle aboutMob__subtitle">
+						We are online community of data enthusiasts. Regular sharing our opinios, knowledge about machine
+						learning and engineering. 
+					</p>
+					<a href="slack.html" class="button">LEARN MORE</a>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container-fluid events">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 events__title">
+					<h2 class="title">Upcoming Events</h2>
+				</div>
+				<div class="col-md-12 events__block">
+					<div class="row">
+						<div class="col-md-5 events__cards">
+							<div class="row align-items-center">
+								<div class="col-md-3 events__fraud-block text-left">
+								</div>
+								<div class="col-md-9">
+									<span class="events__card-name mark-margin">
+										Kate Ogochukwu Nwankwo
+									</span>
+									<span class="date">11 JAN 2022</span><br>
+									<div class="news__title-wrap">
+									<a class="news__title" href="events.html">Fraud Detection in Financial Industry 
+									</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-5 events__cards">
+							<div class="row align-items-center">
+								<div class="col-md-3 events__monitoring-block text-left">
+								</div>
+								<div class="col-md-9">
+									<span class="events__card-name  mark-margin">
+										Magdalena Konkiewicz
+									</span>
+									<span>16 FEB 2022</span><br>
+									<div class="news__title-wrap">
+										<a class="news__title" href="evetns.events.html">Monitoring Model Performance with Crowdsourcing
+									</div>
+									
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-2 events__button-block text-center">
+							<a href="events.html">
+								<img src="img/eventsNext.png" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid eventsMob">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 events__title">
+					<h2 class="title">Upcoming Events</h2>
+				</div>
+				<div class="col-md-12 events__blockMob">
+					<div class="row">
+						<div class="col-md-12 events__cardsMob">
+							<div class="row align-items-center">
+								<div class="col-md-2 col-4 events__fraud-blockMob text-left">
+								</div>	
+								<div class="col-md-10 col-8 events__fraud-info">
+									<span class="events__card-name mark-margin br6">
+										Kate Ogochukwu Nwankwo
+									</span><br>
+									<span class="date">11 JAN 2022</span><br>
+									<a class="news__title events__titleMob" href="events.html">Fraud Detection in Financial Industry 
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12 events__cardsMob">
+							<div class="row align-items-center">
+								<div class="col-md-2 col-4 events__monitoring-blockMob text-left">
+								</div>
+								<div class="col-md-10  col-8 events__fraud-info">
+									<span class="events__card-name  mark-margin">
+										Magdalena Konkiewicz
+									</span>
+									<span class="date">16 FEB 2022</span><br>
+									<div class="news__title-wrap">
+										<a class="news__title events__titleMob" href="evetns.events.html">Monitoring Model Performance with Crowdsourcing
+									</div>
+									
+									
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 eventsMob__button text-center">
+							<a href="" class="button">LEARN MORE</a>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container-fluid podcast">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-md-7">
+
+					<a href="">
+						<img class="podcast__videoLink" src="img/podcastVideo.png" alt="">
+					</a>
+					<p class="main__subtitle podcast__subtitle">
+						<span class="mark-text">Our latest podcast:</span> Product Management for Machine Learning with Geo Jolly
+					</p>
+				</div>
+				<div class="col-md-5">
+					<h2 class="title">Latest Podcasts</h2>
+					<p class="main__subtitle ">Listen our podcasts via Spotify, Anchor, Apple podcasts and on YouTube. Fresh look on machine learning! 
+					</p>
+					<a href="podcast.html" class="button">LEARN MORE</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid podcastMob">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-md-12 text-center podcast__title">
+					<h2 class="title">Latest Podcasts</h2>
+				</div>
+				<div class="col-md-12 text-center">
+
+					<a href="">
+						<img class="podcast__videoLink" src="img/podcastVideo.png" alt="">
+					</a>
+					<p class="main__subtitle podcast__subtitle">
+						<span class="mark-text">Our latest podcast:</span> Product Management for Machine Learning with Geo Jolly
+					</p>
+				</div>
+				<div class="col-md-12 text-center">
+					
+					<p class="main__subtitle podcastMob__subtitle">Listen our podcasts via Spotify, Anchor, Apple podcasts and on YouTube. Fresh look on machine learning! 
+					</p>
+					<a href="podcast.html" class="button">LEARN MORE</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container-fluid sponsors">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-md-4  col-12 text-left">
+					<h2 class="title text-light">Our Sponsors</h2>
+				</div>
+				<div class="col-md-4 col-6 text-right">
+					<img class="sponsors__photo" src="img/whylabsLogo.png" alt="">
+				</div>
+				<div class="col-md-4 col-6 text-right">
+					<img class="sponsors__photo" src="img/sodaLogo.png" alt="">
+				</div>
+				
+			</div>
+		</div>
+	</div>	
+
+
+	<div class="container-fluid testimonials">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 testimonials__title-block">
+					<h2 class="title">Testimonials</h2>
+					<p class="main__subtitle testimonials__subtitle">Several selected clients, who already found our club usefull.</p>
+				</div>
+
+<div class="row">
+				<div class="col-md-3"></div>
+				<div class="col-md-6 col-12 testimonials__block testimonials__block1">
+					<div class="row">
+						<div class="col-md-4 col-5 testimonials__photo-Thomas">
+						</div>
+						<div class="col-md-8 col-7">
+							<h3 class="testimonials__name">
+								Thomas Erricson
+							</h3>
+							<p class="main__subtitle testimonials__subtitle2">
+								This is really friendly and helpful community. I learned a lot from people there and found new friends! I really enjoy our meetings and experience share.
+							</p>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="col-md-3"></div> -->
+
+
+
+				<!-- <div class="col-md-3"></div> -->
+				<div class="col-md-6 hide col-12 testimonials__block testimonials__block2">
+					<div class="row">
+						<div class="col-md-4 col-5 testimonials__photo-Kiara">
+						</div>
+						<div class="col-md-8 col-7">
+							<h3 class="testimonials__name">
+								Kiara Kron
+							</h3>
+							<p class="main__subtitle testimonials__subtitle2">
+								This is really friendly and helpful community. I learned a lot from people there and found new friends! I really enjoy our meetings and experience share.
+							</p>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="col-md-3"></div> -->
+
+
+				<!-- <div class="col-md-3"></div> -->
+				<div class="col-md-6 hide col-12 testimonials__block testimonials__block3 ">
+					<div class="row">
+						<div class="col-md-4 col-5 testimonials__photo-Thomas">
+						</div>
+						<div class="col-md-8 col-7">
+							<h3 class="testimonials__name">
+								Rog Erricson
+							</h3>
+							<p class="main__subtitle testimonials__subtitle2">
+								This is really friendly and helpful community. I learned a lot from people there and found new friends! I really enjoy our meetings and experience share.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3"></div>
+			</div>
+
+				<div class="col-md-3"></div>
+					<div class="testimonials__dots">
+						<a class="d-inline">
+							<div class="testimonials__dot-1 testimonials__dot active__dot">
+							</div>
+						</a>
+						<a class="d-inline" >
+							<div class="testimonials__dot-2 testimonials__dot">
+							</div>
+						</a>
+						<a class="d-inline">
+							<div class="testimonials__dot-3 testimonials__dot">
+							</div>
+						</a>
+					</div>
+ 				</div>
+		</div>
+	</div>
+
+
+	<div class="container-fluid article">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-md-5 text-center">
+					<h2 class="title">Latest Articles</h2>
+					<p class="main__subtitle article__subtitle">Stay up to date with industry news and personal stories by reading articles from our experts!</p>
+					<a href="articles.html" class="button">LEARN MORE</a>
+				</div>
+				<div class="col-md-7">
+					<div class="article__blocks">
+						<div class="row">
+							<div class="col-md-12">
+								<span class="article__name mark-margin br6">
+									NISHANT MONAH
+								</span>
+								<span class="article__time">01 FEB 2021</span>
+								<div class="article__title-wrap">
+									<a class="article__title" href="articles.html">How I Landed a Job As a Product Analyst
+									</a>
+								</div>
+								<p class="main__subtitle">
+									An account of my job search in the field of analytics during Covid-19.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="article__blocks">
+						<div class="row">
+							<div class="col-md-12">
+								<span class="article__name mark-margin br6">
+									Sejal Vaidya
+								</span>
+								<span class="article__time">01 Jan 2021</span>
+								<div class="article__title-wrap">
+									<a class="article__title" href="articles.html">Containerized ML deployment with AWS Lambda
+									</a>
+								</div>
+								<p class="main__subtitle">
+									An account of my job search in the field of analytics during Covid-19.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid articleMob">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-md-5 text-center">
+					<h2 class="title">Latest Articles</h2>
+					<p class="main__subtitle article__subtitle">Stay up to date with industry news and personal stories by reading articles from our experts!</p>
+				</div>
+				<div class="col-md-7">
+					<div class="article__blocks">
+						<div class="row">
+							<div class="col-md-12">
+								<span class="article__name mark-margin br6">
+									NISHANT MONAH
+								</span>
+								<span class="article__time">01 FEB 2021</span>
+								<div class="article__title-wrap">
+									<a class="article__title" href="articles.html">How I Landed a Job As a Product Analyst
+									</a>
+								</div>
+								<p class="main__subtitle article__subtitleMob">
+									An account of my job search in the field of analytics during Covid-19.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="article__blocks">
+						<div class="row">
+							<div class="col-md-12">
+								<span class="article__name mark-margin br6">
+									Sejal Vaidya
+								</span>
+								<span class="article__time">01 Jan 2021</span>
+								<div class="article__title-wrap">
+									<a class="article__title" href="articles.html">Containerized ML deployment with AWS Lambda
+									</a>
+								</div>
+								<p class="main__subtitle article__subtitleMob">
+									An account of my job search in the field of analytics during Covid-19.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12 text-center article__button">
+						<a href="articles.html" class="button">LEARN MORE</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<div class="container-fluid books">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 books__block">
+					<div class="row">
+						<div class="col-md-4 col-4  books__title-photo">
+						</div>
+						<div class="col-md-8  col-8">
+							<span class="books__time">FROM 10 JAN 2022 · TO 17 JAN 2022</span>
+							<div class="books__title-wrap">
+								<a class="books__title" href="read.html">Engineering MLOps </a>
+							</div>
+							<span class="books__subname">by Emmanuel Raj</span>
+							<p class="books__subtitle">This book presents comprehensive insights into MLOps coupled with real-world examples to help you to write programs, train robust and scalable ML models, and build ML pipelines to train and deploy models securely in production.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 books__info-block text-center">
+					<h2 class="title">
+						Latest Books
+					</h2>
+					<p class="main__subtitle h">
+						Each week we have a book author coming to DataTalks.Club to answer your questions about their book and, in general, about the topic of their book.
+					</p>
+					<a href="read.html" class="button">LEARN MORE</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid booksMob">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center books__info-block">
+					<h2 class="title">
+						Latest Books
+					</h2>
+					<p class="main__subtitle books__mob-subtitle h">
+						Each week we have a book author coming to DataTalks.Club to answer your questions about their book and, in general, about the topic of their book.
+					</p>
+				</div>
+				<div class="col-md-12 books__block">
+					<div class="row">
+						<div class="col-md-2 col-4 books__title-photo">
+						</div>
+						<div class="col-md-10 col-8">
+							<span class="books__time">FROM 10 JAN 2022 · TO 17 JAN 2022</span>
+							<div class="books__title-wrap">
+								<a class="books__title" href="read.html">Engineering MLOps </a>
+							</div>
+							<span class="books__subname">by Emmanuel Raj</span>
+							<p class="books__subtitle">This book presents comprehensive insights into MLOps coupled with real-world examples to help you to write programs, train robust and scalable ML models, and build ML pipelines to train and deploy models securely in production.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-12 text-center books__button">
+					<a href="read.html" class="button">LEARN MORE</a>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</main>	
+
+
+<section>
+	<div class="container-fluid">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<h2 class="title">Not joined yet?</h2>
+					<p class="section__subtitle">
+						Subscribe to our weekly newsletter and join our Slack. We'll keep you informed about everything
+
+					</p>
+					<div class="email__form email__form-section">
+						<input class="email__input" name="email" placeholder="Ener your email address.." type="text"><a class="nav__button" href="">JOIN US</a>
+					</div>
+
+					<p class="main__subtitle section__subInput">
+						You`ll get an invite within 3 minutes
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<footer>
+	<div class="container-fluid footer__pc">
+		<div class="container">
+			<div class="row ">
+				<div class="col-md-4">
+					<img src="img/logoFooter.svg" alt="">
+					<p class="footer__subtitle text-light">
+						Global online community <br>of data  enthusiasts. Join us:
+					</p>
+					<a href=""><img class="footer__net-links" src="img/youtubeFooter.svg" alt=""></a>
+					<a href=""><img class="footer__net-links" src="img/twitterFooter.svg" alt=""></a>
+					<a href=""><img class="footer__net-links" src="img/linkedinFooter.svg" alt=""></a>
+					<a href=""><img class="footer__net-links" src="img/gitHubFooter.svg" alt=""></a>
+				</div>
+				<div class="col-md">
+					<a class="footer__pages text-light" href="index.html">Home</a>
+				</div>
+				<div class="col-md">
+					<a class="footer__pages text-light" href="learn.html">Learn</a><br><br>
+					<a href="learn.html" class="footer__subpages">Courses</a><br><br>
+					<a href="tools.html" class="footer__subpages">Tools</a><br><br>
+					<a href="articles.html" class="footer__subpages">Articles</a>
+				</div>
+				<div class="col-md">
+					<a class="footer__pages text-light" href="read.html">Read</a><br><br>
+					<a href="books.html" class="footer__subpages">Books</a><br><br>
+					<a href="blog.html" class="footer__subpages">Blog</a>
+
+				</div>
+				<div class="col-md">
+					<a class="footer__pages text-light" href="listen.html">Listen</a><br><br>
+					<a href="podcasts.html" class="footer__subpages">Podcasts</a>
+					
+				</div>
+				<div class="col-md">
+					<a class="footer__pages text-light" href="join.html">Join</a><br><br>
+					<a href="slack.html" class="footer__subpages">Slack</a><br><br>
+					<a href="newsletter.html" class="footer__subpages">Newsletter</a><br><br>
+					<a href="events.html" class="footer__subpages">Events</a>
+				</div>
+				<div class="col-md">
+					<a class="footer__pages text-light" href="support.html">Support</a><br><br>
+					<a href="privacy.html" class="footer__subpages">Privacy Police</a>
+				</div>
+
+				<div class="col-md-12 text-center">
+					<div class="vertical-line"></div>
+					<p class="footer__copyright">Copyright © 2022 DataTalks.Club</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid footer__mob text-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 footer__mob-links-wrap">
+					<div class="row">
+						<div class="col">
+							<a href="index.html" class="header__links text-light"><b>Home</b></a>
+						</div>
+						<div class="col nav__link-wrap ">
+							<a class="header__links text-light"><b>Learn</b></a>
+							<div class="nav__menu-block">
+								<a href="learn.html" class="nav__subLink-md">Courses</a>
+								<a href="tools.html" class="nav__subLink-md">Tools</a>
+								<a href="articles.html" class="nav__subLink-md">Articles</a>
+							</div>
+						</div>
+						<div class="col nav__link-wrap">
+							<a class="header__links text-light"><b>Read</b></a>
+							<div class="nav__menu-block">
+								<a href="read.html" class="nav__subLink-md">Books</a>
+								<a href="blog.html" class="nav__subLink-md">Blog</a>
+							</div>
+						</div>
+						<div class="col nav__link-wrap">
+							<a class="header__links text-light"><b>Listen</b></a>
+							<div class="nav__menu-block">
+								<a href="podcast.html" class="nav__subLink-md">Podcasts</a>
+							</div> 
+						</div>
+						<div class="col  nav__link-wrap">
+							<a  class="header__links text-light"><b>Join</b></a>
+							<div class="nav__menu-block">
+								<a href="slack.html" class="nav__subLink-md">Slack</a>	
+								<a href="newsletter.html" class="nav__subLink-md">Newsletter</a>	
+								<a href="events.html" class="nav__subLink-md">Events</a>	
+							</div> 	
+						</div>
+					</div>
+				</div>
+				<div class="col-md-12">
+					<a href=""><img class="footer__net-links" src="img/youtubeFooter.svg" alt=""></a>
+					<a href=""><img class="footer__net-links" src="img/twitterFooter.svg" alt=""></a>
+					<a href=""><img class="footer__net-links" src="img/linkedinFooter.svg" alt=""></a>
+					<a href=""><img class="footer__net-links" src="img/gitHubFooter.svg" alt=""></a>
+				</div>
+				<div class="col-md-12 ">
+					<p class="footer__mob-copyright">Copyright © 2022 DataTalks.Club</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</footer>
+
+
+
+
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+<script src="js/main.js"> 
+	
+</script>
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+body{
+	overflow-x: hidden;
+}
+.tools__subtitle{
+	width: 600px;
+	margin: 0 auto;
+}
+
+.tools__block{
+	height: 370px;
+	box-shadow: 4.47433px 5.3692px 17.8973px rgba(46, 60, 81, 0.2);
+	border-radius: 20px;
+	padding: 40px;
+	margin-top: 40px;
+}
+.tools__title{
+	font-size: 26px;
+	font-weight: 700;
+	font-family: 'Ubuntu';
+}
+.tools__tag{
+	font-size: 14px;
+	font-weight: 600;
+	background: rgba(242, 248, 255, 1);
+	padding: 7px;
+}
+.tools__tag1{
+	margin-right: 10px;
+}
+.tools__tag2{
+	background: none;
+}
+.tools__block-subtitle{
+	font-size: 20px;
+	color: rgba(86, 86, 86, 1);
+	margin-bottom: 30px;
+	margin-top: 10px;
+
+}
+img{
+	max-width: 100%;
+}

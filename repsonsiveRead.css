@@ -1,0 +1,11 @@
+@media screen and (max-width: 768px){
+	.plan__subtitle{
+		font-size: 18px;
+	}
+	.plan__dot{
+		width: 19px;
+		height: 19px;
+		margin-left: 25px;
+		margin-bottom: 20px
+	}
+}

@@ -1,0 +1,19 @@
+.articles__block{
+	height: 240px;
+	box-shadow: 5px 6px 20px rgba(46, 60, 81, 0.2);
+	border-radius: 10px;
+	padding: 30px;
+	margin-top: 40px;
+}
+.articles__mark-text{
+	font-size: 14px;
+	font-weight: 600;
+	color: rgba(86, 86, 86, 1);
+	padding: 7px;
+	background: rgba(242, 248, 255, 1);
+
+
+}
+.article__page-title{
+	margin-bottom: 60px;
+}

@@ -1,0 +1,8 @@
+.newsletter{
+	padding: 100px 0;
+}
+main{
+	background: url('../img/newsletterBacck.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}

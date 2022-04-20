@@ -1,0 +1,82 @@
+.guidelines{
+	background: #2056A2;
+	padding: 90px 0;
+}
+.width400{
+	float: none;
+	margin: 0 auto;
+	margin-bottom: 40px;
+
+}
+.button-white:hover{
+	border: 3px solid  #fff;
+}
+
+
+/* channels */
+
+.channels{
+	padding: 80px 0;
+}
+.plan__subtitle{
+	color: #2056A2;
+	font-size: 24px	;
+	font-weight: 600;
+}
+.plan__dot-wrap {
+    margin-top: -10px;
+}
+
+@media screen and (max-width: 768px){
+	.nav__img{
+		width: 100%;
+	}
+	.plan__dot{
+		margin-left: 30px;
+	}
+	.main__subtitle{
+		font-size: 15px;
+	}
+	.plan__subtitle{
+		font-size: 20px;
+		margin-left: 0px;
+	}
+}
+
+
+@media screen and (max-width: 576px){
+	.width400{
+		width: 260px;
+	}
+	.guidelines{
+		margin-top: 60px;
+		padding: 30px 0;
+	}
+	.plan__subtitle{
+		font-size: 16px;
+		margin-left: 0px
+	}
+	.main__subtitle{
+		font-size: 12px;
+	}
+	.plan__dot{
+		margin-left: 10px;
+		width: 14px;
+		height: 14px;
+	}
+	section{
+		padding: 0px 0;
+	}
+}
+
+@media screen and (max-width: 576px){
+	.plan__dot-wrap{
+		margin-top: -30px;
+	}
+	.plan__punkts{
+		margin-top: 0px;
+	}
+	.main__subtitle{
+		margin: 10px 0;
+	}
+}

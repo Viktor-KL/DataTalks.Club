@@ -1,0 +1,174 @@
+.about{
+	background: url('../img/eventsBackLast.png') no-repeat;
+	background-size: 90%;
+	background-position: center;
+}
+
+.about__title{
+	font-size: 30px;
+	color: #2056A2;
+	font-weight: 700;
+	font-family: 'Ubuntu';
+	margin: 10px 0px 20px 0;
+}
+.about__img{
+	margin-top: 25px;
+}
+.switch-block{
+	margin-bottom: 120px;
+}
+.upcoming__events-micro{
+	background: url('../img/miniMicro.png');
+}
+.upcoming__events-pc{
+	background: url('../img/upcomingPC.png');
+}
+.upcoming__events-wshp{
+	background: url('../img/upcomingWshp.png');
+}
+.upcoming__events-cam{
+	background: url('../img/miniMicro.png');
+}
+
+
+
+.upcoming__events{
+	    height: 130px;
+    padding: 20px;
+    width: 70%;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position-x: -16px;
+    background-position-y: -18px;
+    box-shadow: 6.18147px 7.41777px 24.7259px rgb(46 60 81 / 20%);
+    border-radius: 185px;
+    margin-top: 40px;
+}
+.upcoming__title{
+	font-size: 22px;
+	padding-top: 10px;
+}
+
+
+/* past */
+
+.past__event-name{
+	font-size: 24px;
+	color: #2056A2;
+	font-weight: 600;
+	margin: 40px 20px 0px 20px;
+}
+.past__name{
+	font-size: 24px;
+	color: #565656;
+	background: #F2F8FF;
+	padding: 7px;
+}
+.past__blocks{
+	margin-top: 40px;
+}
+
+.upcoming__events-wrap-mob{
+	display: none;
+}
+@media screen and (max-width: 1200px){
+	.upcoming__info-block{
+		margin-left: 140px;
+	}
+}
+
+
+@media screen and (max-width: 768px){
+	.about{
+		display: block !important;
+	}
+	.about__header{
+		text-align: center;
+	}
+	.about{
+		background: none;
+		height: 80vh;
+	}
+	.upcoming__events{
+		width: 100%;
+	}
+	.article__title{
+		font-size: 21px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.main__button{
+		text-align: center;
+		padding: 10px 0px 30px;
+	}
+}
+
+@media screen and (max-width:  576px){
+	.about__subtitles{
+		font-size: 12px;
+	}
+	.about__img{
+		width: 20%;
+	}
+	.about__title{
+		margin-bottom: 0px;
+		font-size: 15px;
+	}
+}
+
+
+@media screen and (max-width: 768px){
+	.article__name, .main__date	{
+		font-size: 11px;
+	}
+	.article__title{
+		font-size: 18px;
+	}
+
+}
+
+@media screen and (max-width: 576px){
+	.about{
+		height: 220vh !important;
+	}
+	.upcoming__events{
+		height: 63px;
+		background: none;
+		box-shadow: none;
+	}
+	
+	.upcoming__events-wrap{
+		display: none !important;
+	} 
+	.upcoming__events-wrap-mob{
+		display: block !important;
+	}
+	.past__event-name, .past__name{
+		font-size: 14px;
+	}
+	.past__blocks{
+		margin-top: 0px;
+	}
+	
+	
+	.up{
+		display: block;
+	}
+	.up-mob{
+		display: none;
+	}
+	.upcoming__info-block{
+		margin-left: 0px !important;
+	}
+	.upcoming__events{
+		margin-right: 0px !important;
+	}
+	.main__subtitle20{
+		font-size: 14px;
+	}
+}
+
+footer{
+	margin-top: 80px;
+}

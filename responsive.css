@@ -1,0 +1,1142 @@
+@media screen and (max-width: 1200px){
+	.mobile__menu{
+		display: block;
+
+	}
+	.pc__menu, .pc__menu-blue{
+		display: none;
+	}
+	
+	.nav__img{
+		width: 90%;
+	}
+	.h1_title{
+		font-size: 46px;
+	}
+	.subtitle{
+		font-size: 24px;
+	}
+	.nav__subtitle{
+		font-size: 15px;
+	}
+	.about__img{
+		width: 70%;
+	}
+	.title{
+		font-size: 44px;
+	}
+	.button{
+		font-size: 18px	;
+	}
+	.eventsMob{
+		display: block;
+	}
+	.events{
+		display: none;
+	}
+	.books__title-photo{
+		background-position: right;
+	}
+	.books__block{
+		margin-right: 70px;
+	}
+
+	/* learn */
+
+	.courses{
+		display: none;
+	}
+	.coursesMob{
+		display: block;
+	}
+	.courses__blocks{
+		margin: 0 auto !important;
+		margin-right: 0px;
+		width: 500px;
+		margin-top: 40px !important;
+	}
+	/* tools */
+
+	.tools__title{
+		font-size: 24px;
+	}
+	.tools__tag1{
+		margin-right: 5px
+	}
+	.tools__block-subtitle{
+		font-size: 18px;
+	}
+
+	/* articles0 */
+
+	.article__title{
+		font-size: 23px;
+	}
+	.articles__left-block{
+		display: none;
+	}
+	.articles__right-block{
+		max-width: 90%;
+		flex: 90%;
+	}
+	.articles__block{
+		height: auto;
+		padding: 15px;
+	}
+	.articles__mark-text{
+		font-size: 8px;
+	}
+	.articles__date{
+		font-size: 8px;
+	}
+	.articles__right-block{
+		max-width: 100%;
+	}
+
+	/* articleDetailed */
+
+	.main__subtitle24{
+		font-size: 22px;
+	}
+	.news__main-img{
+		width: 100%;
+	}
+	.plan__subtitle{
+		font-size: 21px;
+	}
+
+	/* read */
+
+	.books__block{
+		max-width: 60% !important;
+		flex: 100%;
+		margin: 0 auto;
+		margin-top: 50px;
+	}
+	.books__title-photo{
+		background-position: center;
+	}
+
+	/* books detailed */
+
+	.event__img{
+		top: 200px;
+		right: -40px;
+	}
+
+	/* events */
+
+	.upcoming__info-block{
+		margin-left: 130px !important;
+	}
+}
+
+
+
+
+@media screen and (max-width: 992px){
+	footer{
+		padding: 100px 0;
+	}
+	.h1_title{
+		font-size: 37px;
+	}
+	.subtitle{
+		font-size: 21px;
+	}
+	.nav__info-block{
+	   flex: 0 0 57.666667%;
+   		max-width: 61.666667%;
+	}
+	.nav__photo-block{
+		max-width: 38.333333%;
+	}
+	.nav__img{
+		width: 120%;
+	}
+	.nav__subtitle {
+    	font-size: 14px;
+	}
+	.main__subtitle{
+		font-size: 16px;
+	}
+	.button{
+		font-size: 16px ;
+	}
+	.podcast__subtitle{
+		width: 400px;
+	}
+	.sponsors__photo{
+		width: 100%;
+	}
+	.testimonials__name{
+		font-size: 26px;
+	}
+	.article__title{
+		font-size: 23px;
+	}
+	.books__block{
+		max-width: 70% !important;
+		flex: 70% !important;
+		margin-right: 20px;
+		max-height: 265px;
+	}
+	.books__info-block{
+		max-width: 27% !important;
+		flex: 27% !important;
+	}
+	.section__subtitle{
+		width: 400px;
+	}
+	.learning__info-subtitle{
+		font-size: 20px;
+	}
+	.learning__date{
+		font-size: 24px;
+	}
+	.past__blocks{
+		max-height: 350px;
+	}
+	.coursesMob2{
+		display: none;
+	}
+	.footer__pc{
+		display: none;
+	}
+	.footer__mob{
+		display: block;
+	}
+
+	/* detailed */
+
+	.nav__img{
+		width: 100%;
+	}
+	.nav__buttons-det{
+		font-size: 18px;
+	}
+	.detailed__title{
+		font-size: 24px;
+	}
+	.detailed__subtitle{
+		font-size: 18px;
+	}
+	.minTItle{
+		font-size: 34px;
+	}
+	.plan__subtitle{
+		font-size: 21px;
+		margin-left: 30px;
+	}
+	.button-white{
+		font-size: 18px;
+	}
+	.team__photo{
+		width: 100%;
+	}
+	.faq__quest{
+		font-size: 28px;
+	}
+
+	/* tools */
+
+	.tools__tag{
+		font-size: 12px;
+	}
+	.tools__title{
+		font-size: 20px;
+	}
+	.tools__block-subtitle{
+		font-size: 14px;
+	}
+
+	/* articleDetailed */
+
+	.main__subtitle24{
+		font-size: 20px;
+	}
+	.news__subtitle{
+		font-size: 21px;
+	}
+	.news__insert{
+		width: 650px;
+	}
+
+	/* read */
+
+	.plan__subtitle{
+		font-size: 18px;
+	}
+	.main__subtitle20{
+		font-size: 18px;
+	}
+	.books__block{
+		max-width: 80% !important;
+		margin-right: auto;
+	}
+	.archive__right-blocks{
+		display: none;
+	}
+	.archive__left-blocks{
+		max-width: 70% !important;
+		flex: 70%;
+		margin: 0 auto;
+	}
+	.books__date{
+		font-size: 12px;
+	}
+	.books__title{
+		font-size: 21px;
+	}
+	.archive__name{
+		font-size: 15px;
+	}
+
+	/* books detailed */
+
+	.generative__description{
+		width: 480px;
+	}
+	.event__img{
+		top: 310px;
+	}
+
+	/* podcast */
+
+	.podcast__network{
+		width: 33%;
+	}
+	.season__block{
+		width: 690px;
+	}
+	.podcast__preview-block{
+		max-width: 35% !important;
+	}
+	.podcast__info-block{
+		max-width: 65% !important;
+	}
+
+	/* podcastDetailed */
+
+	.voice{
+		width: 550px;
+	}
+
+	/* events */
+
+	.about__cards{
+		padding: 10px;
+		height: auto;
+	}
+	.about__img{
+		width: 30%;
+		margin-top: 5px;
+	}
+	.about__subtitles{
+		font-size: 14px;
+	}
+	.upcoming__events{
+		width: 90%;
+	}
+	.past__name{
+		font-size: 21px;
+	}
+	.past__event-name{
+		font-size: 21px;
+	}
+
+
+
+
+
+}
+
+
+@media screen and (max-width: 768px){
+	.read-nav-subtitle{
+		width: 70%;
+	}
+	.read-nav-photo{
+		position: relative;
+	    right: 160px;
+	    z-index: -1;
+	    width: 190px;
+	    bottom: 30px;
+	}
+	.archive__block-photo-wrap{
+		max-width: 130%	;
+	}
+	
+	.pc__menu{
+		display: none;
+	}
+	.nav__info-block{
+		flex: 100%;
+		max-width: 72%;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.nav__photo-block {
+    	max-width: 0%;
+	}
+	.aboutMob{
+		display: block;
+		padding: 40px 0;
+	}
+	.about{
+		display: none;
+	}
+	.about__img{
+		width: 40%;
+	}
+	.about__card-wrap{
+		display: flex;
+		margin: 0 auto;
+	}
+	.about__cards{
+		height: 210px;
+		margin: 0 auto;
+		padding: 20px;
+		width: 217px;
+
+	}
+	.about__subtitles{
+		margin-top: 10px;
+	}
+	.about__right-cards {
+    	margin-top: 40px;
+	}
+	.aboutMob__subtitle{
+		width: 400px;
+		margin: 0 auto;
+		text-align: center;
+		margin-top: 30px;
+		margin-bottom: 50px;
+	}
+	.about__title{
+		margin-bottom: 40px;
+	}
+	.title{
+		font-size: 36px;
+		text-align: center;
+	}
+	.events__fraud-blockMob{
+		width: 22%;
+	}
+	.events__fraud-info{
+		width: 78%;
+	}
+	.events__monitoring-blockMob{
+		width: 22%;
+	}
+	.events__title{
+		margin-bottom: 0px;
+	}
+	.podcast{
+		display: none
+	}
+	.podcastMob{
+		display: block;
+		padding: 60px 0;
+	}
+	.podcast__title{
+		margin-bottom: 40px
+	}
+	.podcastMob__subtitle{
+		width: 450px;
+		margin: 0 auto;
+		margin-bottom: 40px
+	}
+	.sponsors__photo{
+		margin-top: 40px;
+	}
+	.testimonials__subtitle{
+		width: 300px;
+		margin: 0 auto;
+		text-align: center;
+		margin-bottom: 40px;
+	}
+	.testimonials__Kiara{
+		display: none;
+	}
+	.article__subtitle{
+		width: 400px;
+		margin: 0 auto;
+		margin-bottom: 40px;
+
+	}
+	.article{
+		display: none;
+
+	}
+	.articleMob{
+		display: block;
+		padding: 60px 0px 0px 0px;
+	}
+	.article__subtitleMob{
+		margin: 0;
+	}
+	.article__blocks{
+		height: auto;
+	}
+	.article__button{
+		margin-top: 40px
+	}
+	
+	
+	.books__info-block{
+		max-width: 100% !important;
+	}
+	.books__mob-subtitle{
+		width: 420px;
+		margin: 0 auto;
+
+	}
+	.books__block{
+		max-width: 100% !important;
+		margin: 0 auto;
+	}
+	.books__button{
+		margin-top: 40px;
+	}
+	section{
+		padding: 60px 0;
+	}
+
+	/* learn */
+
+	.learning__bg{
+		background: none;
+	}
+	.learning__bg-left{
+		background: none;
+		padding-bottom: 60px;
+	}
+	.learning__date{
+		text-align: center;
+		font-size: 21px;
+	}
+	.learning__subtitle{
+		text-align: center;
+		font-size: 18px;
+		width: 400px;
+		margin: 0 auto;
+		margin-bottom: 40px;
+	}
+	.learning__button-wrap{
+		text-align: center;
+	}
+	.coursesMob{
+		display: none;
+
+	}
+	.coursesMob2{
+		display: block;
+		padding: 60px 0;
+		background: #2056A2;
+		margin-bottom: 60px;
+	}
+	.past-courses__mobile{
+		display: block;
+	}
+	.past-courses{
+		display: none;
+	}
+
+	/* detailed */
+
+	.nav__buttons-det{
+		font-size: 16px;
+		padding: 10px;
+	}
+	.nav__img{
+		width: 120%;
+	}
+	.detailed__subtitle{
+		font-size: 18px;
+		max-width: 240px;
+		margin: 0 auto;
+	}
+	.detailed__title{
+		font-size: 22px;
+	}
+	.min__title{
+		font-size: 28px;
+	}
+	.plan__date{
+		font-size: 20px;
+	}
+	.plan__subtitle{
+		font-size: 21px;
+		margin-left: 60px;
+	}
+	.plan__dot-wrap {
+ 	   margin-top: 34px;
+	}
+	.minTitle{
+		font-size: 28px;
+	}
+	.button-white{
+		font-size: 16px;
+	}
+	.team__photo{
+		width: 110%;
+	}
+	.faq__quest{
+		font-size: 26px;
+	}
+	.faq__answer{
+		font-size: 18px;
+	}
+	.faq__num{
+		font-size: 38px;
+	}
+	.tools__block{
+		height: auto;
+	}
+	.tools__block-subtitle{
+		font-size: 16px;
+	}
+	.tools__title{
+		font-size: 22px;
+	}
+	.tools__tag{
+		font-size: 14px;
+	}
+	.switch-block{
+		font-size: 14px;
+	}
+	.news__subtitle{
+		font-size: 18px;
+	}
+	.news__insert{
+		width: 480px;
+	}
+
+	/* read */
+
+	.main__subtitle20{
+		font-size: 16px;
+	}
+	.books__block{
+		display: block;
+	}
+	.generative__description{
+		width: 340px;
+	}
+	.faq__punkt{
+		margin-top: 30px;
+	}
+	.event__button-wrap{
+		text-align: center;
+	}
+	.event__img-back{
+		display: none;
+	}
+	.podcast__network{
+		width: 43%;
+	}
+	.season__series-title{
+		font-size: 20px;
+	}
+	.adaptive__switches{
+		width: 7%;
+	}
+	.switch-button{
+		font-size: 12px;
+		padding: 0px 12px;
+	}
+	.season__block{
+		width: 510px;
+		padding: 20px;
+		height: auto;
+	}
+	.season__photo{
+		width: 100%;
+	}
+	.upcoming__events{
+		width: 100%;
+		margin-right: 60px !important;
+	}
+	.article__name{
+		font-size: 12px;
+	}
+
+	/* podcastDetailed */
+
+	.detailed__iframe{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.voice{
+		width: 450px !important;
+	}
+	.plan__dot-wrap{
+		margin-top: 24px
+	}
+
+	/* slack */
+
+	.slack__nav{
+		text-align: center;
+	}
+
+	/* events */
+
+	
+	.about__img{
+		width: 30%;
+	}
+	.about__title{
+		font-size: 21px;
+		margin-bottom: 10px;
+	}
+	.about__cards{
+		padding: 10px;
+		margin-top: 40px;
+		height: auto;
+	}
+	.about__subtitles{
+		font-size: 13px;
+	}
+	.about__right-cards{
+		margin-top: 0px;
+	}
+	.upcoming__events{
+		width: 100%;
+	}
+	.article__title{
+		font-size: 21px;
+	}
+
+
+}
+
+
+@media screen and (max-width: 576px){
+	.sponsors{
+		padding: 30px 0;
+	}
+	.nav__info-block{
+		max-width: 100%;
+	}
+	.h1_title{
+		font-size: 25px;
+	}
+	.subtitle{
+		font-size: 16px;
+	}
+	.nav__button{
+		font-size: 9px;
+	}
+	.email__input{
+		font-size: 11px;
+	}
+	.email__form{
+		padding: 0;
+	}
+	.nav__subtitle{
+		font-size: 11px;
+		margin-top: 10px
+	}
+	nav {
+    	padding: 30px 0px 0px 0px;
+	}
+	.about__card-wrap {
+	    flex-direction: column;
+	}
+	.about__right-cards {
+    	margin-top: 0px;
+	}	
+	.about__title {
+    	margin-bottom: 0px;
+	}
+	.about__cards{
+		margin-top: 30px;
+		height: auto;
+	}
+	.aboutMob__subtitle{
+		width: 270px;
+		margin-bottom: 30px;
+	}
+	.about__img{
+		width: 50%;
+	}
+	.title{
+		font-size: 24px;
+	}
+	.events__titleMob{
+		font-size: 13px;
+	}
+	.events__card-name{
+		font-size: 10px;
+	}
+	.date{
+		font-size: 10px;
+	}
+	.podcast__subtitle{
+		width: 300px;
+		margin: 0 auto;
+		margin-bottom: 30px;
+	}
+	.podcastMob__subtitle{
+		width: 250px;
+	}
+	.testimonials__subtitle{
+		width: 230px;
+	}
+	.testimonials__name{
+		font-size: 16px;
+	}
+	.testimonials__subtitle2{
+		font-size: 12px;
+		margin: 10px 0px -20px 0px;
+	}
+	.testimonials__photo-Kiara{
+		height: 145px;
+		background-size: cover;
+	}
+	.testimonials__photo-Thomas{
+		height: 145px;
+		background-size: cover;
+	}
+	.testimonials__dot{
+		height: 15px;
+		width: 15px;
+	}
+	.article__subtitle{
+		width: 280px;
+	}
+	.article__name{
+		font-size: 11px;
+	}
+	.article__time{
+		font-size: 11px;
+	}
+	.article__title{
+		font-size: 18px;
+	}
+	.article__subtitleMob{
+		font-size: 14px;
+	}
+	.article__subtitle{
+		margin-bottom: 0px;
+	}
+	.books__mob-subtitle{
+		width: 280px9;
+	}
+	.books__time{
+		font-size: 10px;
+	}
+	.books__title{
+		font-size: 12px;
+	}
+	.books__subname{
+		font-size: 9px;
+	}
+	.books__subtitle{
+		font-size: 10px;
+	}
+	.books__mob-subtitle{
+		width: 270px;
+	}
+	.books__title-photo{
+		background-size: 86%;
+	}
+	.button{
+		font-size: 14px;
+	}
+	.section__subtitle{
+		width: 240px;
+		font-size: 17px;
+	}
+	.email__form-section{
+		width: 240px;
+	}
+	.books__block{
+		margin-top: 0px;
+		margin-bottom: 40px;	
+	}
+
+	/* learn */
+
+	.learning__bg{
+		padding-top: 60px;
+	}
+	.learning__date{
+		font-size: 14px;
+	}
+	.learning__subtitle{
+		width: 230px;
+		font-size: 15px;
+
+	}
+	.learning__info-subtitle{
+		font-size: 13px;
+	}
+	.learning__dot{
+		height: 14px;
+		width: 14px;
+		margin-bottom: 15px;
+	}
+	.button{
+		font-size: 10px;
+		padding: 10px 15px;
+	}
+	.button-white{
+		font-size: 10px;
+		padding: 10px 15px;
+	}
+
+	.learning__button-wrap{
+		margin-top: 15px;
+	}
+	.learning__subtitle{
+		margin-bottom: 20px;
+	}
+	.courses__block-date{
+		font-size: 13px;
+	}
+	.courses__block-title{
+		font-size: 16px;
+	}
+	.courses__subtitle{
+		font-size: 11px;
+	}
+	.courses__blocks{
+		width: auto;
+		height: auto;
+		padding: 20px 20px 35px 20px;
+	}
+	.courses__subtitle{
+		margin-bottom: 15px;
+	}
+	.wrp{
+		height: 240px;
+	}
+	.wrp:after{
+		display: none;
+	}
+	.past__blocks{
+		padding: 30px;
+	}
+
+	/* detailed */
+
+	.nav__photo-blocks{
+		max-width: 100%;
+		flex: 100%;
+
+	}
+	.nav__buttons-det{
+		font-size: 12px;
+
+	}
+	.navPC{
+		display: none;
+	}
+	.navMob{
+		display: block;
+	}
+	.detailed__title{
+		font-size: 12px;
+	}
+	.detailed__subtitle{
+		font-size: 12px;
+		width: 180px;
+	}
+	.detailed__photo{
+		width: 100%;
+	}
+	.detailed__photo2{
+		width: 50%;
+	}
+	.minTitle{
+		font-size: 18px;
+	}
+	.detailed__minTitle{
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
+	.plan__date{
+		font-size: 13px;
+	}
+	.team__title{
+		margin-bottom: 10px;
+	}
+	.team__photo{
+		width: 80%;
+		margin-top: 30px;
+	}
+	.faq__punkt{
+		margin-top: 40px;
+	}
+	.faq__quest{
+		font-size: 20px;
+	}
+	.faq__answer{
+		font-size: 16px;
+	}
+	.faq__num{
+		font-size: 28px;
+	}
+	.partners__photo{
+		width: 100%;
+	}
+	.partners__title{
+		margin-bottom: 20px;
+	}
+	.tools__subtitle{
+		width: 240px;
+		font-size: 16px;
+	}
+	.tools__title{
+		font-size: 15px;
+	}
+	.tools__tag{
+		font-size: 7px;
+	}
+	.tools__block-subtitle{
+		font-size: 12px;
+	}
+	.tools__block{
+		padding: 20px 10px;
+	}
+	.tools__logo{
+		width: 150%;
+	}
+	.adaptive__switches{
+		width: 15%;
+	}
+	.switch-button{
+		font-size: 12px;
+		padding: 0px 10px;
+
+	}
+	.article__page-title{
+		margin-bottom: 0px;
+	}
+
+	/* articleDetailed */
+
+	.news__insert{
+		padding: 10px;
+		width: 100%;
+	}
+	.main__subtitle24{
+		font-size: 15px;
+	}
+	.news__subtitle{
+		font-size: 15px;
+	}
+
+	/* booksArchive */
+
+	.archive__name{
+		font-size: 9px;
+	}
+	.books__date{
+		font-size: 8px;
+	}
+	.books-archive-img{
+		width: 180%;
+	}
+	.archive__block{
+		padding: 5px;
+	}
+
+	/* books detailed */
+
+	.generative__description{
+		width: 270px !important;
+		text-align: center;
+		font-size: 15px !important;
+		margin: 0 auto;
+	}
+	.generative__info-block{
+		display: flex;
+		flex-direction: column;
+	}
+	.generative-mob-settings{
+		max-width: 250px;
+		text-align: center;
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+	.generative__photo{
+		width: 50%;
+	}
+	.generative__title{
+		padding: 60px 0px 30px 0;
+	}
+
+	/* podcast */
+
+	.podcast__main-subtitle{
+		width: 250px;
+		font-size: 12px !important;
+	}
+	.podcast__info-block{
+		max-width: 100% !important;
+		padding: 20px 10px 0px 20px;
+	}
+	.podcast__preview-block{
+		max-width: 45% !important;
+		margin: 0 auto;
+		align-items: center;
+	}
+	.season__photo{
+		width: 110%;
+	}
+	.season__series-title{
+		font-size: 15px;
+	}
+	.season__block{
+		width: 100%;
+		height: auto;
+		padding: 20px !important;
+	}
+	.season__series-name{
+		font-size: 8px;
+	}
+	.season__series-subtitle{
+		font-size: 12px !important;
+	}
+	.podcast__network{
+		width: 43%;
+	}
+
+	/* podcast Detailed */
+
+	.voice{
+		width: 360px !important;
+	}
+	.plan__subtitle{
+		font-size: 15px;
+		margin-left: 0px;
+	}
+	.plan__dot{
+		margin-left: 10px !important;
+	}
+
+	footer{
+		padding: 0px;
+	}
+	.footer__mob{
+		padding: 30px 0 !important;
+	}
+	.under-input{
+		font-size: 12px;
+	}
+	.section__subInput{
+		font-size: 13px;
+	}
+	.upcoming__events-wrap{
+		display: none;
+	}
+	.upcoming__events-wrap-mob{
+		display: block !important;
+	}
+
+
+}

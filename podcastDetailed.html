@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="css/podcastDetailed.css">
+</head>
+<body>
+<nav class="mobile__menu">
+	<header class="nav__header">
+		<img class="mob-nav__logo" src="img/whiteLogo.png" alt="">
+		<div class="nav__burger" onclick="toChange(this)">
+					<div class="bar1 bars-white"></div>
+					<div class="bar2 bars-white"></div>
+					<div class="bar3 bars-white"></div>
+				</div>
+	</header>
+	<div class="mobile__menu-links">
+		<div class="">
+		<a class="nav__link nav__link-white" href="index.html">Home</a>
+	</div>
+	<div class="">
+		<a class="nav__link nav__link-white">Learn <img class="mobMenuArrow" src="img/mobMenuArrodWhite.png" alt=""></a>
+		<div class="nav__div-link">
+			<a class="nav__subLinks nav__subLinks-white" href="learn.html">Courses</a>
+			<a class="nav__subLinks nav__subLinks-white" href="tools.html">Tools</a>
+			<a class="nav__subLinks nav__subLinks-white" href="articles.html">Articles</a>
+		</div>
+	</div>
+
+	<div class="">
+		<a class="nav__link nav__link-white" href="#">Read <img class="mobMenuArrow" src="img/mobMenuArrodWhite.png" alt=""></a>
+		<div class="nav__div-link">
+			<a class="nav__subLinks nav__subLinks-white" href="read.html">Books</a>
+			<a class="nav__subLinks nav__subLinks-white" href="blog.html">Blog</a>
+		</div>
+	</div>
+	<div class="">
+		<a class="nav__link nav__link-white" href="#">Listen <img class="mobMenuArrow" src="img/mobMenuArrodWhite.png" alt=""></a>
+		<div class="nav__div-link">
+			<a class="nav__subLinks nav__subLinks-white" href="podcast.html">Podcasts</a>
+		</div>
+	</div>
+	<div class="">
+		<a class="nav__link nav__link-white" href="#">Join <img class="mobMenuArrow" src="img/mobMenuArrodWhite.png" alt=""></a>
+		<div class="nav__div-link">
+			<a class="nav__subLinks nav__subLinks-white" href="slack.html">Slack</a>
+			<a class="nav__subLinks nav__subLinks-white" href="newsletter.html">Newsletter</a>
+			<a class="nav__subLinks nav__subLinks-white" href="events.html">Events</a>
+		</div>
+	</div>
+	<div class="">
+		<a class="nav__link nav__link-white" href="#">Support <img class="mobMenuArrow" src="img/mobMenuArrodWhite.png" alt=""></a>
+		<div class="nav__div-link">
+			<a class="nav__subLinks nav__subLinks-white" href="podcast.html">Support</a>
+		</div>
+	</div>
+	<div class="nav-networks-block">
+		<a class="nav-mob-net-icon" href=""><img src="img/navYoutube.png" alt=""></a>
+		<a class="nav-mob-net-icon" href=""><img src="img/navTwitter.png" alt=""></a>
+		<a class="nav-mob-net-icon" href=""><img src="img/navLinked.png" alt=""></a>
+		<a class="nav-mob-net-icon" href=""><img src="img/navGhub.png" alt=""></a>
+	</div>
+	</div>
+	
+	
+</nav>
+
+
+
+<header class="pc__menu pc__menu-blue">
+	<div class="container-fluid">
+		<div class="container">
+			<div class="row ">
+				<div class="col-md-6 text-left">
+					<img src='img/whiteLogo.png' alt="">
+				</div>
+				<div class="col-md-1">
+					<a href="index.html" class="header__links header__links-blue">Home</a>
+				</div>
+				<div class="col-md-1 nav__link-wrap nav__link-wrap-blue">
+					<a href="learn.html" class="header__links header__links-blue">Learn</a>
+					<div class="nav__menu-block nav__menu-block-blue">
+						<a href="learn.html" class="nav__subLink-md">Courses</a>
+						<a href="tools.html" class="nav__subLink-md">Tools</a>
+						<a href="articles.html" class="nav__subLink-md">Articles</a>
+					</div>
+				</div>
+				<div class="col-md-1 nav__link-wrap nav__link-wrap-blue">
+					<a href="read.html" class="header__links header__links-blue">Read</a>
+					<div class="nav__menu-block nav__menu-block-blue">
+						<a href="read.html" class="nav__subLink-md">Books</a>
+						<a href="blog.html" class="nav__subLink-md">Blog</a>
+					</div>
+				</div>
+				<div class="col-md-1 nav__link-wrap nav__link-wrap-blue">
+					<a href="podcast.html" class="header__links header__links-blue active-link-blue">Listen</a>
+					<div class="nav__menu-block nav__menu-block-blue">
+						<a href="podcast.html" class="nav__subLink-md">Podcasts</a>
+					</div>
+				</div>
+				<div class="col-md-1 nav__link-wrap nav__link-wrap-blue">
+					<a href="slack.html" class="header__links header__links-blue">Join</a>
+					<div class="nav__menu-block nav__menu-block-blue">
+						<a href="slack.html" class="nav__subLink-md">Slack</a>
+						<a href="newsletter.html" class="nav__subLink-md">Newsletter</a>
+						<a href="events.html" class="nav__subLink-md">Events</a>
+					</div>
+				</div>
+				<div class="col-md-1 nav__link-wrap nav__link-wrap-blue">
+					<a href=".html" class="header__links header__links-blue"><nobr>Follow us</nobr></a>
+					<div class="nav__menu-block nav__menu-block-blue">
+						<a href="slack.html" class="nav__subLink-md">Youtube</a>
+						<a href="newsletter.html" class="nav__subLink-md">Twitter </a>
+						<a href="events.html" class="nav__subLink-md">LinkedIn</a>
+						<a href="events.html" class="nav__subLink-md">GitHub</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</header>
+
+
+<nav>
+	<div class="container-fluid">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-md-12">
+					<a href="podcast.html">
+						<img src="img/buttonBack.png" alt="">
+					</a>
+					<a href="" class="article__name text-uppercase">
+						Mariano Semelman
+					</a>
+					<span class="text-light">SEASON 6</span>
+					<h1 class="h1_title text-light h1-blue-title">
+						Becoming a Data Science Manager
+					</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+</nav>
+
+<main>
+	<div class="container-fluid">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-md-12 text-center main__networks">
+					<a href=""><img  class="podcast__network" src="img/appleLink.png" alt=""></a>
+					<a href=""><img  class="podcast__network" src="img/spotifayLink.png" alt=""></a>
+					<a href=""><img  class="podcast__network" src="img/youtubelink.png" alt=""></a>
+					<a href=""><img  class="podcast__network" src="img/anchorLink.png" alt=""></a>
+				</div>
+				<div class="col-md-12 text-center">
+					<iframe class="detailed__iframe" src="https://www.youtube.com/embed/tcqBfZw41FM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+				<div class="col-md-12 text-center">
+					<iframe class="voice" src="https://anchor.fm/datatalksclub/embed/episodes/Becoming-a-Data-Engineering-Manager---Rahul-Jain-e1f5nvf/a-a7gpmu4"  frameborder="0" scrolling="no"></iframe>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container-fluid links">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-12 text-center">
+					<h2 class="title">
+						Links
+					</h2>
+				</div>
+				<div class="col-md-2 col-2 plan__dot-wrap">
+					<div class="plan__dot"></div>
+				</div>
+				<div class="col-md-10 col-10 plan__punkts">
+					<a href="">
+						<p class="plan__subtitle">
+							NLP Pandect
+						</p>
+					</a>
+				</div>
+				<div class="col-md-2 col-2 plan__dot-wrap">
+					<div class="plan__dot"></div>
+				</div>
+				<div class="col-md-10 col-10 plan__punkts">
+					<a href="">
+						<p class="plan__subtitle">
+							Engineering Manager Pandect
+						</p>
+					</a>
+				</div>
+				<div class="col-md-2 col-2 plan__dot-wrap">
+					<div class="plan__dot"></div>
+				</div>
+				<div class="col-md-10 col-10 plan__punkts">
+					<a href="">
+						<p class="plan__subtitle">
+							Microservices Pandect
+						</p>
+					</a>
+				</div>
+				<div class="col-md-2 col-2  plan__dot-wrap">
+					<div class="plan__dot"></div>
+				</div>
+				<div class="col-md-10 col-10 plan__punkts">
+					<a href="">
+						<p class="plan__subtitle">
+							Ivan’s presentation about NLP
+						</p>
+					</a>
+				</div>
+
+				<div class="col-md-12 title__wrap">
+					<h2 class="title">
+						Transcript
+					</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<p class="main__subtitle24">
+						<b>Alexey:</b> This week, we'll talk about the role of data science manager. We have a special guest today, Mariano. Mariano is actually my colleague and works as head of data science at OLX group. I think Mariano joined quite a while before me. You've been with OLX for five years, right? <br><br>
+
+						<b>Mariano:</b> Yes, almost five. <br><br>
+
+						<b>Alexey:</b> When I joined OLX, Mariano was a senior data scientist, then I saw him transition into a manager. Then after that, he became the head of data science. Mariano has 13 years of experience, almost 10 of them were in data science. He's originally from Argentina and then moved to Berlin. Now he lives in Barcelona. Also I have here in the notes “And he's obsessed with…” And then it's unfinished. [laughs] So I don't know what you’re obsessed with. <br><br>
+
+						<b>Mariano:</b> With product applications. Yes. I am obsessed with the application of data science. That's the area that I enjoy the most. <br><br>
+
+						<b>Alexey:</b> Okay. Welcome to our event, Mariano. <br><br>
+
+						<b>Mariano:</b> Thank you, Alexey, for having me. I think it's going to be strange because I know you. Thank you so much for having me. It's an honor for me. I think you're doing a great job with DataTalks.Clubs. I think it was the anniversary very recently, so congrats on that. I'm all yours. You're the driver now. 
+					</p>
+				</div>
+
+				<div class="col-md-12 title__wrap">
+					<h2 class="title">
+						Mariano’s background
+					</h2>
+				</div>
+				<div class="col-md-12">
+					<p class="main__subtitle24">
+						<b>Alexey:</b> Yeah, indeed. Actually, I wanted to get somebody on the DataTalks.Club podcast to talk about the experience of transitioning from an individual contributor role to a managerial role, and I couldn't think of anyone better for this conversation than you, Mariano. But before we go into our main topic of becoming a data science manager, I wanted to ask you about your background. Can you tell us about your career journey so far? <br><br>
+
+						<b>Mariano:</b> Sure. I'm a computer scientist and went to university for this subject. I did a Master’s back in Buenos Aires a long time ago – more years than I would like to say. But I was already working as a software developer, more or less, at the same time that I was doing college. I started working first as a data analyst, then as a Java developer, web developer. I even took a shot at mobile games. Data was my passion and within my Master’s, and I focused a lot on that and ever since. <br><br>
+
+						<b>Mariano:</b> That's how I jumped into applications of data science in the industry. Mostly because I found it more attractive to work with something where you could experiment very often, and if you made mistakes, it’s not so good. The targets were very clear and we had checklists. I found it very assuring. Then, I changed companies twice, but I was always working in the area of data science – things around personalization, recommenders, marketing, segmentation, etc. It was always around ecommerce, you can say. Most of my experience is in ecommerce. <br><br>
+
+						<b>Mariano:</b> Then I tried OLX almost five years ago and I had an amazing experience. I moved across three countries and worked with all types of people, cultures, projects, endeavors. It was super fun. So that's my summary. Please interrupt me, because you know me very well – I can go for hours without actually talking about anything, so. [laughs] 
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+				
+				
+					
+</main>
+
+
+<section>
+	<div class="container-fluid">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<h2 class="title">Join our Slack</h2>
+					<p class="section__subtitle">
+						Subscribe to our weekly newsletter and join our Slack. We'll keep you informed about everything happening in the Club.
+					</p>
+					<div class="email__form email__form-section">
+						<input class="email__input" name="email" placeholder="Ener your email address.." type="text"><a class="nav__button" href="">JOIN US</a>
+					</div>
+
+					<p class="main__subtitle under-input">
+						You`ll get an invite within 3 minutes
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<footer>
+	<div class="container-fluid footer__pc">
+		<div class="container">
+			<div class="row ">
+				<div class="col-md-4">
+					<img src="img/logoFooter.svg" alt="">
+					<p class="footer__subtitle text-light">
+						Global online community <br>of data  enthusiasts. Join us:
+					</p>
+					<a href=""><img class="footer__net-links" src="img/youtubeFooter.svg" alt=""></a>
+					<a href=""><img class="footer__net-links" src="img/twitterFooter.svg" alt=""></a>
+					<a href=""><img class="footer__net-links" src="img/linkedinFooter.svg" alt=""></a>
+					<a href=""><img class="footer__net-links" src="img/gitHubFooter.svg" alt=""></a>
+				</div>
+				<div class="col-md">
+					<a class="footer__pages text-light" href="index.html">Home</a>
+				</div>
+				<div class="col-md">
+					<a class="footer__pages text-light" href="learn.html">Learn</a><br><br>
+					<a href="learn.html" class="footer__subpages">Courses</a><br><br>
+					<a href="tools.html" class="footer__subpages">Tools</a><br><br>
+					<a href="articles.html" class="footer__subpages">Articles</a>
+				</div>
+				<div class="col-md">
+					<a class="footer__pages text-light" href="read.html">Read</a><br><br>
+					<a href="books.html" class="footer__subpages">Books</a><br><br>
+					<a href="blog.html" class="footer__subpages">Blog</a>
+
+				</div>
+				<div class="col-md">
+					<a class="footer__pages text-light" href="listen.html">Listen</a><br><br>
+					<a href="podcasts.html" class="footer__subpages">Podcasts</a>
+					
+				</div>
+				<div class="col-md">
+					<a class="footer__pages text-light" href="join.html">Join</a><br><br>
+					<a href="slack.html" class="footer__subpages">Slack</a><br><br>
+					<a href="newsletter.html" class="footer__subpages">Newsletter</a><br><br>
+					<a href="events.html" class="footer__subpages">Events</a>
+				</div>
+				<div class="col-md">
+					<a class="footer__pages text-light" href="support.html">Support</a><br><br>
+					<a href="privacy.html" class="footer__subpages">Privacy Police</a>
+				</div>
+
+				<div class="col-md-12 text-center">
+					<div class="vertical-line"></div>
+					<p class="footer__copyright">Copyright © 2022 DataTalks.Club</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid footer__mob text-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 footer__mob-links-wrap">
+					<div class="row">
+						<div class="col">
+							<a href="index.html" class="header__links header__links-blue text-light"><b>Home</b></a>
+						</div>
+						<div class="col nav__link nav__link-white-wrap ">
+							<a class="header__links header__links-blue text-light"><b>Learn</b></a>
+							<div class="nav__menu-block">
+								<a href="learn.html" class="nav__subLink-md">Courses</a>
+								<a href="tools.html" class="nav__subLink-md">Tools</a>
+								<a href="articles.html" class="nav__subLink-md">Articles</a>
+							</div>
+						</div>
+						<div class="col nav__link nav__link-white-wrap">
+							<a class="header__links header__links-blue text-light"><b>Read</b></a>
+							<div class="nav__menu-block">
+								<a href="read.html" class="nav__subLink-md">Books</a>
+								<a href="blog.html" class="nav__subLink-md">Blog</a>
+							</div>
+						</div>
+						<div class="col nav__link nav__link-white-wrap">
+							<a class="header__links header__links-blue text-light"><b>Listen</b></a>
+							<div class="nav__menu-block">
+								<a href="podcast.html" class="nav__subLink-md">Podcasts</a>
+							</div> 
+						</div>
+						<div class="col  nav__link nav__link-white-wrap">
+							<a  class="header__links header__links-blue text-light"><b>Join</b></a>
+							<div class="nav__menu-block">
+								<a href="slack.html" class="nav__subLink-md">Slack</a>	
+								<a href="newsletter.html" class="nav__subLink-md">Newsletter</a>	
+								<a href="events.html" class="nav__subLink-md">Events</a>	
+							</div> 	
+						</div>
+					</div>
+				</div>
+				<div class="col-md-12">
+					<a href=""><img class="footer__net-links" src="img/youtubeFooter.svg" alt=""></a>
+					<a href=""><img class="footer__net-links" src="img/twitterFooter.svg" alt=""></a>
+					<a href=""><img class="footer__net-links" src="img/linkedinFooter.svg" alt=""></a>
+					<a href=""><img class="footer__net-links" src="img/gitHubFooter.svg" alt=""></a>
+				</div>
+				<div class="col-md-12 ">
+					<p class="footer__mob-copyright">Copyright © 2022 DataTalks.Club</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="js/main.js"> 
+	
+</script>
+</body>
+</html>			

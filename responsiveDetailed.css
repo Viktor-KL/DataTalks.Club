@@ -1,0 +1,77 @@
+	@media screen and (max-width: 768px){
+	.nav__photo-blockas{
+		position: relative;
+	}
+	.nav__img-block-det{
+		max-width: 0%;
+		flex: 0%;
+	}
+	.navMob{
+		padding: 20px 0;
+		background: url('../img/deteiledNavImg.png') no-repeat;
+		background-size: 70%;
+		background-position: 120px 80px;
+
+	}
+	nav{
+		background: #fff;
+	}
+}
+
+@media screen and (max-width: 576px){
+	.plan__dot{
+		height: 15px;
+		width: 15px;
+		margin-left: 60px;
+	}
+	.detailed__photo{
+		width: 70%;
+
+	}
+	.detailed__photo2{
+		width: 35%;
+	}
+	.detailed__minTitle{
+		margin-top: 50px;
+	}
+	.plan__foter-button{
+		margin-top: 30px;
+		margin-bottom: 50px;
+	}
+	.team__photo{
+		width: 40%;
+
+	}
+	.team__name{
+		font-size: 16px;
+	}
+	.faq__quest{
+		font-size: 18px;
+	}
+	.partners__photo{
+		width: 70%;
+	}
+	header{
+		background: #fff;
+	}
+	.detailed__subtitle{
+		width: 120px;
+	}
+	.navMob{
+		background: none;
+		text-align: center;
+	}
+	.mobile__menu{
+		margin-bottom: 0px !important;
+	}
+	nav{
+		padding: 0 !important;
+	}
+	.partners{
+		padding: 0px;
+	}
+	section {
+	    padding: 80px 0px 0px;
+	}	
+
+}

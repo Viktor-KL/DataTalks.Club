@@ -1,0 +1,144 @@
+/* nav */
+
+.nav__subtitle-pading{
+	padding: 20px 0;
+}
+body{
+	overflow-x: hidden;
+}
+
+
+/* learning */
+
+
+.coursesMob2{
+	display: none;
+}
+.coursesMob{
+	display: none !important;
+}
+.learning__bg{
+	background: url('../img/learnBG.png') no-repeat;
+	background-position: right;
+	    background-size: 33% 100%;
+
+}
+.learning__bg-left{
+	background: url('../img/learnBG.png') no-repeat;
+	background-position: left;
+	    background-size: 33% 100%;
+	margin-top: 100px;
+
+}
+.learning__date{
+	font-size: 26px;
+	font-weight: 600;
+	color: #2056A2;
+	font-family: 'Poppins';
+}
+.learning__subtitle{
+	font-size: 20px ;
+	font-family: 'Poppins';
+	margin-bottom: 40px;
+}
+
+.learning__info-subtitle{
+	font-size: 22px;
+	font-family: 'Poppins';
+}
+.learning__dot{
+	height: 24px;
+	width: 24px;
+	background: #2056A2	;
+	
+}	
+.learning__button{
+	margin-left: 20px;
+}
+
+.learning__button-wrap{
+	margin-top: 45px;
+}
+
+.past-courses__mobile{
+	display: none;
+}
+
+/* courses */
+
+.courses{
+	padding: 100px 0;
+}
+.coursesMob{
+	display: none !important;
+	padding: 100px 0;
+}
+.courses__blocks{
+	height: 360px;
+	box-shadow: 4.65817px 5.58981px 18.6327px rgba(46, 60, 81, 0.2);
+	border-radius: 15px;
+	padding: 40px;
+	margin-top: 50px;
+	margin-right: 30px;
+	background: #fff;
+}
+.courses__block-date{
+	font-size: 24px;
+	font-weight: 500;
+	color: #000;
+	font-family: 'Poppins';
+}
+.courses__block-title{
+	font-size: 28px;
+	font-weight: 700;
+	color: rgba(32, 86, 162, 1);
+	font-family: 'Ubuntu';
+
+}
+.courses__subtitle{
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+.courses__subtitle-last{
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+/* past */
+
+.past__blocks{
+	padding: 50px;
+	background: #FFFFFF;
+	box-shadow: 4.65817px 5.58981px 18.6327px rgba(46, 60, 81, 0.2);
+	border-radius: 15px;
+	margin-top: 40px;
+}
+.main__subtitle{
+	padding: 0;
+}
+
+
+
+
+
+
+/* try */
+.wrp {
+	height: 360px;
+}
+.wrp:after{
+    content: '';
+    background: #2056A2;
+    height: 140px;
+    width: 140px;
+    border-top-right-radius: 50px;
+    display: inline-block;
+    position: relative;
+    top: -390px;
+    right: -205px;
+    z-index: -1;
+}
+
+footer{
+	margin-top: 80px;
+}

@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Articles</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/articles.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="css/responsiveArticle.css">
+</head>
+<body>
+
+	
+<nav class="mobile__menu">
+	<header class="nav__header">
+		<img class="mob-nav__logo" src="img/logo.png" alt="">
+		<div class="nav__burger" onclick="toChange(this)">
+					<div class="bar1"></div>
+					<div class="bar2"></div>
+					<div class="bar3"></div>
+				</div>
+	</header>
+	<div class="mobile__menu-links">
+		<div class="">
+		<a class="nav__link" href="index.html">Home</a>
+	</div>
+	<div class="">
+		<a class="nav__link">Learn <img class="mobMenuArrow" src="img/mobMenuArrod.png" alt=""></a>
+		<div class="nav__div-link">
+			<a class="nav__subLinks" href="learn.html">Courses</a>
+			<a class="nav__subLinks" href="tools.html">Tools</a>
+			<a class="nav__subLinks" href="articles.html">Articles</a>
+		</div>
+	</div>
+
+	<div class="">
+		<a class="nav__link" href="#">Read <img class="mobMenuArrow" src="img/mobMenuArrod.png" alt=""></a>
+		<div class="nav__div-link">
+			<a class="nav__subLinks" href="read.html">Books</a>
+			<a class="nav__subLinks" href="blog.html">Blog</a>
+		</div>
+	</div>
+	<div class="">
+		<a class="nav__link" href="#">Listen <img class="mobMenuArrow" src="img/mobMenuArrod.png" alt=""></a>
+		<div class="nav__div-link">
+			<a class="nav__subLinks" href="podcast.html">Podcasts</a>
+		</div>
+	</div>
+	<div class="">
+		<a class="nav__link" href="#">Join <img class="mobMenuArrow" src="img/mobMenuArrod.png" alt=""></a>
+		<div class="nav__div-link">
+			<a class="nav__subLinks" href="slack.html">Slack</a>
+			<a class="nav__subLinks" href="newsletter.html">Newsletter</a>
+			<a class="nav__subLinks" href="events.html">Events</a>
+		</div>
+	</div>
+	<div class="">
+		<a class="nav__link" href="#">Support <img class="mobMenuArrow" src="img/mobMenuArrod.png" alt=""></a>
+		<div class="nav__div-link">
+			<a class="nav__subLinks" href="podcast.html">Support</a>
+		</div>
+	</div>
+	<div class="nav-networks-block">
+		<a class="nav-mob-net-icon" href=""><img src="img/navYoutube.png" alt=""></a>
+		<a class="nav-mob-net-icon" href=""><img src="img/navTwitter.png" alt=""></a>
+		<a class="nav-mob-net-icon" href=""><img src="img/navLinked.png" alt=""></a>
+		<a class="nav-mob-net-icon" href=""><img src="img/navGhub.png" alt=""></a>
+	</div>
+	</div>
+	
+	
+</nav>
+
+
+
+<header class="pc__menu">
+	<div class="container-fluid">
+		<div class="container">
+			<div class="row ">
+				<div class="col-md-6 text-left">
+					<img src='img/logo.png' alt="">
+				</div>
+				<div class="col-md-1">
+					<a href="index.html" class="header__links">Home</a>
+				</div>
+				<div class="col-md-1 nav__link-wrap">
+					<a href="learn.html" class="header__links active-link">Learn</a>
+					<div class="nav__menu-block">
+						<a href="learn.html" class="nav__subLink-md">Courses</a>
+						<a href="tools.html" class="nav__subLink-md">Tools</a>
+						<a href="articles.html" class="nav__subLink-md">Articles</a>
+					</div>
+				</div>
+				<div class="col-md-1 nav__link-wrap">
+					<a href="read.html" class="header__links">Read</a>
+					<div class="nav__menu-block">
+						<a href="read.html" class="nav__subLink-md">Books</a>
+						<a href="blog.html" class="nav__subLink-md">Blog</a>
+					</div>
+				</div>
+				<div class="col-md-1 nav__link-wrap">
+					<a href="podcast.html" class="header__links">Listen</a>
+					<div class="nav__menu-block">
+						<a href="podcast.html" class="nav__subLink-md">Podcasts</a>
+					</div>
+				</div>
+				<div class="col-md-1 nav__link-wrap">
+					<a href="slack.html" class="header__links">Join</a>
+					<div class="nav__menu-block">
+						<a href="slack.html" class="nav__subLink-md">Slack</a>
+						<a href="newsletter.html" class="nav__subLink-md">Newsletter</a>
+						<a href="events.html" class="nav__subLink-md">Events</a>
+					</div>
+				</div>
+				<div class="col-md-1 nav__link-wrap">
+					<a href=".html" class="header__links"><nobr>Follow us</nobr></a>
+					<div class="nav__menu-block">
+						<a href="slack.html" class="nav__subLink-md">Youtube</a>
+						<a href="newsletter.html" class="nav__subLink-md">Twitter </a>
+						<a href="events.html" class="nav__subLink-md">LinkedIn</a>
+						<a href="events.html" class="nav__subLink-md">GitHub</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</header>
+
+
+
+
+
+
+
+
+<main>
+
+
+<div class="container-fluid">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h1 class="h1_title article__page-title">
+						Latests Articles
+					</h1>
+				</div>
+				<div class="col-md-6 col-12 articles__right-block">
+					<div class="articles__block">
+						<span class="articles__mark-text mark-margin br6">NISHANT MOHAN</span>
+						<spanv class='articles__date'>01 FEB 2021</span><br>
+						<a href="articleDetailed.html" class="article__title">
+							How I Landed a Job As a Product Analyst
+						</a>
+						<p class="main__subtitle">
+							An account of my job search in the field of analytics during Covid-19.
+						</p>
+					</div>
+
+					<div class="articles__block">
+						<span class="articles__mark-text mark-margin br6">DAVID GATES</span>
+						<spanv class='articles__date'>25 DEC 2020</span><br>
+						<a href="articleDetailed.html" class="article__title">
+							Transforming Data into a Narrative. Characters, conflicts, conclusion.
+						</a>
+						<p class="main__subtitle">
+							Whether you’re working in data analytics or data science, the ability to turn your data into...
+						</p>
+					</div>
+
+					<div class="articles__block">
+						<span class="articles__mark-text mark-margin br6">DAVID GATES</span>
+						<spanv class='articles__date'>17 DEC 2020</span><br>
+						<a href="articleDetailed.html" class="article__title">
+							Simplifying Difficult Concepts. For a non-technical audience
+						</a>
+						<p class="main__subtitle">
+							Effective communication is a vital skill that all data professionals must master. 
+						</p>
+					</div>
+
+					<div class="articles__block">
+						<span class="articles__mark-text br6">ALEXEY GRIGOREV</span>
+						<spanv class='articles__date'>14 DEC 2020</span><br>
+						<a href="articleDetailed.html" class="article__title">
+							Different roles in a data team and their responsibilities
+						</a>
+						<p class="main__subtitle">
+							In this article, we’ll talk about different roles in a data team and discuss their responsibilities.
+						</p>
+					</div>
+
+					<div class="articles__block">
+						<span class="articles__mark-text mark-margin br6">NISHANT MOHAN</span>
+						<spanv class='articles__date'>29 NOW 2020</span><br>
+						<a href="articleDetailed.html" class="article__title">
+							Not A Regular RFM Analysis
+						</a>
+						<p class="main__subtitle">
+							In this article, we’ll talk about different roles in a data team and discuss their responsibilities.
+						</p>
+					</div>
+				</div>
+				<div class="col-md-6 articles__left-block">
+					<div class="articles__block">
+						<span class="articles__mark-text mark-margin">NISHANT MOHAN</span>
+						<spanv class='articles__date'>01 FEB 2021</span><br>
+						<a href="articleDetailed.html" class="article__title">
+							How I Landed a Job As a Product Analyst
+						</a>
+						<p class="main__subtitle">
+							An account of my job search in the field of analytics during Covid-19.
+						</p>
+					</div>
+
+					<div class="articles__block">
+						<span class="articles__mark-text mark-margin">DAVID GATES</span>
+						<spanv class='articles__date'>25 DEC 2020</span><br>
+						<a href="articleDetailed.html" class="article__title">
+							Transforming Data into a Narrative. Characters, conflicts, conclusion.
+						</a>
+						<p class="main__subtitle">
+							Whether you’re working in data analytics or data science, the ability to turn your data into...
+						</p>
+					</div>
+
+					<div class="articles__block">
+						<span class="articles__mark-text mark-margin">DAVID GATES</span>
+						<spanv class='articles__date'>17 DEC 2020</span><br>
+						<a href="articleDetailed.html" class="article__title">
+							Simplifying Difficult Concepts. For a non-technical audience
+						</a>
+						<p class="main__subtitle">
+							Effective communication is a vital skill that all data professionals must master. 
+						</p>
+					</div>
+
+					<div class="articles__block">
+						<span class="articles__mark-text">ALEXEY GRIGOREV</span>
+						<spanv class='articles__date'>14 DEC 2020</span><br>
+						<a href="articleDetailed.html" class="article__title">
+							Different roles in a data team and their responsibilities
+						</a>
+						<p class="main__subtitle">
+							In this article, we’ll talk about different roles in a data team and discuss their responsibilities.
+						</p>
+					</div>
+
+					<div class="articles__block">
+						<span class="articles__mark-text mark-margin">NISHANT MOHAN</span>
+						<spanv class='articles__date'>29 NOW 2020</span><br>
+						<a href="articleDetailed.html" class="article__title">
+							Not A Regular RFM Analysis
+						</a>
+						<p class="main__subtitle">
+							In this article, we’ll talk about different roles in a data team and discuss their responsibilities.
+						</p>
+					</div>
+				</div>
+				<div class="col-md-12 text-center switch-block">
+					<a href=""><img class="adaptive__switches" src="img/sliderPrev.png" alt=""></a>
+					<a class="switch-button" href="">1</a>
+					<a class="switch-button" href="">2</a>
+					<a class="switch-button" href="">3</a>
+					<a class="switch-button" href="">4</a>
+					<a class="switch-button" href="">5</a>
+					<a href=""><img class="adaptive__switches" src="img/sliderNext.png" alt=""></a>
+				</div>
+			</div>
+		</div>
+	</div>	
+</main>
+
+
+<section>
+	<div class="container-fluid">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<h2 class="title">Join our Slack</h2>
+					<p class="section__subtitle">
+						Subscribe to our weekly newsletter and join our Slack. We'll keep you informed about everything happening in the Club.
+					</p>
+					<div class="email__form email__form-section">
+						<input class="email__input" name="email" placeholder="Ener your email address.." type="text"><a class="nav__button" href="">JOIN US</a>
+					</div>
+
+					<p class="main__subtitle under-input">
+						You`ll get an invite within 3 minutes
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<footer>
+	<div class="container-fluid footer__pc">
+		<div class="container">
+			<div class="row ">
+				<div class="col-md-4">
+					<img src="img/logoFooter.svg" alt="">
+					<p class="footer__subtitle text-light">
+						Global online community <br>of data  enthusiasts. Join us:
+					</p>
+					<a class="header__networks" href=""><img src="img/youtubeFooter.svg" alt=""></a>
+					<a class="header__networks" href=""><img src="img/twitterFooter.svg" alt=""></a>
+					<a class="header__networks" href=""><img src="img/linkedinFooter.svg" alt=""></a>
+					<a class="header__networks" href=""><img src="img/gitHubFooter.svg" alt=""></a>
+				</div>
+				<div class="col-md">
+					<a class="footer__pages text-light" href="index.html">Home</a>
+				</div>
+				<div class="col-md">
+					<a class="footer__pages text-light" href="learn.html">Learn</a><br><br>
+					<a href="learn.html" class="footer__subpages">Courses</a><br><br>
+					<a href="tools.html" class="footer__subpages">Tools</a><br><br>
+					<a href="articles.html" class="footer__subpages">Articles</a>
+				</div>
+				<div class="col-md">
+					<a class="footer__pages text-light" href="read.html">Read</a><br><br>
+					<a href="books.html" class="footer__subpages">Books</a><br><br>
+					<a href="blog.html" class="footer__subpages">Blog</a>
+
+				</div>
+				<div class="col-md">
+					<a class="footer__pages text-light" href="listen.html">Listen</a><br><br>
+					<a href="podcasts.html" class="footer__subpages">Podcasts</a>
+					
+				</div>
+				<div class="col-md">
+					<a class="footer__pages text-light" href="join.html">Join</a><br><br>
+					<a href="slack.html" class="footer__subpages">Slack</a><br><br>
+					<a href="newsletter.html" class="footer__subpages">Newsletter</a><br><br>
+					<a href="events.html" class="footer__subpages">Events</a>
+				</div>
+				<div class="col-md">
+					<a class="footer__pages text-light" href="support.html">Support</a><br><br>
+					<a href="privacy.html" class="footer__subpages">Privacy Police</a>
+				</div>
+
+				<div class="col-md-12 text-center">
+					<div class="vertical-line"></div>
+					<p class="footer__copyright">Copyright © 2022 DataTalks.Club</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid footer__mob text-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 footer__mob-links-wrap">
+					<div class="row">
+						<div class="col">
+							<a href="index.html" class="header__links text-light"><b>Home</b></a>
+						</div>
+						<div class="col nav__link-wrap ">
+							<a class="header__links text-light"><b>Learn</b></a>
+							<div class="nav__menu-block">
+								<a href="learn.html" class="nav__subLink-md">Courses</a>
+								<a href="tools.html" class="nav__subLink-md">Tools</a>
+								<a href="articles.html" class="nav__subLink-md">Articles</a>
+							</div>
+						</div>
+						<div class="col nav__link-wrap">
+							<a class="header__links text-light"><b>Read</b></a>
+							<div class="nav__menu-block">
+								<a href="read.html" class="nav__subLink-md">Books</a>
+								<a href="blog.html" class="nav__subLink-md">Blog</a>
+							</div>
+						</div>
+						<div class="col nav__link-wrap">
+							<a class="header__links text-light"><b>Listen</b></a>
+							<div class="nav__menu-block">
+								<a href="podcast.html" class="nav__subLink-md">Podcasts</a>
+							</div> 
+						</div>
+						<div class="col  nav__link-wrap">
+							<a  class="header__links text-light"><b>Join</b></a>
+							<div class="nav__menu-block">
+								<a href="slack.html" class="nav__subLink-md">Slack</a>	
+								<a href="newsletter.html" class="nav__subLink-md">Newsletter</a>	
+								<a href="events.html" class="nav__subLink-md">Events</a>	
+							</div> 	
+						</div>
+					</div>
+				</div>
+				<div class="col-md-12">
+					<a href=""><img class="footer__net-links" src="img/youtubeFooter.svg" alt=""></a>
+					<a href=""><img class="footer__net-links" src="img/twitterFooter.svg" alt=""></a>
+					<a href=""><img class="footer__net-links" src="img/linkedinFooter.svg" alt=""></a>
+					<a href=""><img class="footer__net-links" src="img/gitHubFooter.svg" alt=""></a>
+				</div>
+				<div class="col-md-12 ">
+					<p class="footer__mob-copyright">Copyright © 2022 DataTalks.Club</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="js/main.js"> 
+	
+</script>
+</body>
+</html>
